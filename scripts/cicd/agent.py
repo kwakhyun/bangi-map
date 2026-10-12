@@ -80,7 +80,9 @@ def decrypt_token(payload, root):
     if result.returncode:
         raise ValueError("Cannot decrypt callback token")
     token = result.stdout.decode()
-    if not re.fullmatch(r"[A-Za-z0-9_]+", token):
+    # Treat provider tokens as opaque RFC 6750 bearer credentials. Restricting
+    # them to legacy GitHub token characters rejects valid installation tokens.
+    if not re.fullmatch(r"[A-Za-z0-9\-._~+/]+=*", token):
         raise ValueError("Invalid callback token format")
     return token
 

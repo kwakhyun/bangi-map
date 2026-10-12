@@ -1,4 +1,5 @@
 """Deployment safety contracts, including actual env-file restoration on failure."""
+import base64
 import hashlib
 import json
 import sys
@@ -6,6 +7,7 @@ import tempfile
 import unittest
 from datetime import datetime, timezone
 from pathlib import Path
+from types import SimpleNamespace
 from unittest.mock import patch
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts/cicd"))
@@ -42,6 +44,15 @@ class ManifestTests(unittest.TestCase):
 
 
 class WorkflowTests(unittest.TestCase):
+    def test_opaque_bearer_callback_tokens_are_accepted_without_header_injection(self):
+        payload = {"sealedToken": base64.b64encode(b"x" * 512).decode()}
+        for token in ("ghs_example", "opaque.fake-token_123~+/=="):
+            with self.subTest(valid=token), patch.object(agent.subprocess, "run", return_value=SimpleNamespace(returncode=0, stdout=token.encode())):
+                self.assertEqual(agent.decrypt_token(payload, Path("/example")), token)
+        for token in ("", "bad\r\nAuthorization: other", "bad token", "bad=padding=value"):
+            with self.subTest(invalid=token), patch.object(agent.subprocess, "run", return_value=SimpleNamespace(returncode=0, stdout=token.encode())), self.assertRaises(ValueError):
+                agent.decrypt_token(payload, Path("/example"))
+
     def setUp(self):
         self.now = datetime(2026, 10, 13, 0, 1, tzinfo=timezone.utc)
         self.request = {"id": 1, "sha": SHA, "environment": "ncp-staging", "task": "bangi:deploy",
