@@ -1,0 +1,13 @@
+.git
+.env
+.env.*
+node_modules
+**/node_modules
+**/target
+**/dist
+.tools
+.runtime
+evidence
+test-results
+playwright-report
+apps/web/public/cesium

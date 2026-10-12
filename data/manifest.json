@@ -1,0 +1,25 @@
+{
+  "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+  "bounds": [
+    127.101,
+    37.505,
+    127.14,
+    37.527
+  ],
+  "counts": {
+    "BIKE": 58,
+    "PARKING": 33,
+    "TOILET": 74
+  },
+  "sourceHashes": {
+    "bikes.xlsx": "a2dcee10a341ac9d6beaf14f83c1e46b38bc96ffc8289340508b01cac0d464f1",
+    "toilets-download.json": "f828f2ea3824a0a04eeda7ea3b9a6f6e8144c701d58b5a5ada967efb35eb72db",
+    "parking-download.json": "2cf7ecfe789d0bb589c3b3c83fb25bd3db8c0475c5b91b257cd5a9698bc02b81"
+  },
+  "parkingSourceHashes": {
+    "city-olympic.json": "473fd67a61774d1c4658fe6dfbcd6ea29e466f8265acc2e60f361395453eec65",
+    "city-jamsil.json": "441fc4d3d8ed80f6febfff60e2490e037b3c8c2f8175bde0d14d16e2ee4db9cd",
+    "parking-download.json": "2cf7ecfe789d0bb589c3b3c83fb25bd3db8c0475c5b91b257cd5a9698bc02b81"
+  },
+  "parkingScopeNote": "Parking extends west to 127.101. Bike and toilet snapshot bounds remain unchanged."
+}

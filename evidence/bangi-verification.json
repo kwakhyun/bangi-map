@@ -1,0 +1,64 @@
+{
+  "verifiedAt": "2026-10-11T11:39:28.143Z",
+  "release": "0.3.1",
+  "counts": [
+    {
+      "kind": "BIKE",
+      "count": 58
+    },
+    {
+      "kind": "PARKING",
+      "count": 1
+    },
+    {
+      "kind": "TOILET",
+      "count": 74
+    }
+  ],
+  "bikeSource": {
+    "id": "seoul-bike",
+    "status": "READY",
+    "lastAttemptAt": "2026-10-11T11:38:35.149138Z",
+    "lastSuccessAt": "2026-10-11T11:38:35.875030Z",
+    "message": "57개 대여소의 최근 수집값입니다. 실제 현장과 차이가 날 수 있습니다.",
+    "configured": true
+  },
+  "liveStations": 57,
+  "stationsWithoutFreshQuantity": [
+    {
+      "id": "bike-1050",
+      "name": "둔촌역 3번 출입구"
+    }
+  ],
+  "publicResponsesAndEntrypointAssetsContainKey": false,
+  "tests": {
+    "api": "6 passed",
+    "chromeDesktop": "passed",
+    "chromeMobile": "passed",
+    "horizontalOverflow": false,
+    "consoleWarningsAndErrors": 0,
+    "javaUnit": "8 passed",
+    "typescript": "passed",
+    "productionImages": "linux/amd64 web and api built"
+  },
+  "notes": [
+    "Viewport override 390x844; browser zoom produced CSS width 433.",
+    "CI Playwright specs prepared; browser workflows were verified through actual Chrome.",
+    "Backup restore checked all facility metadata, geometry and report payloads."
+  ],
+  "infrastructure": {
+    "newPaidResources": 0,
+    "containers": [
+      "db",
+      "fieldtwin-api",
+      "web"
+    ],
+    "apiMemoryMiB": 183.2,
+    "dbMemoryMiB": 99.82,
+    "webMemoryMiB": 3.461,
+    "hostAvailableMemoryMiB": 358,
+    "diskAvailableGiB": 2.3,
+    "observedOomKilled": false,
+    "observedRestartCount": 0
+  }
+}

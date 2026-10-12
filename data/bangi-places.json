@@ -1,0 +1,3255 @@
+[
+  {
+    "id": "bike-1018",
+    "kind": "BIKE",
+    "name": "둔촌 주공 GS 맞은편",
+    "address": "서울특별시 강동구 양재대로 1330",
+    "longitude": 127.13542175,
+    "latitude": 37.52458954,
+    "sourceId": "1018",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-13252/F/1/datasetView.do",
+    "sourceName": "서울시 공공자전거 대여소 정보",
+    "sourceDate": "2026-06",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "stationNumber": "1018",
+      "racks": 15,
+      "method": "QR"
+    }
+  },
+  {
+    "id": "bike-1019",
+    "kind": "BIKE",
+    "name": "다성이즈빌아파트(호원대 대각선 맞은편)",
+    "address": "서울특별시 강동구 성내로 91",
+    "longitude": 127.13005829,
+    "latitude": 37.52679443,
+    "sourceId": "1019",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-13252/F/1/datasetView.do",
+    "sourceName": "서울시 공공자전거 대여소 정보",
+    "sourceDate": "2026-06",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "stationNumber": "1019",
+      "racks": 10,
+      "method": "LCD"
+    }
+  },
+  {
+    "id": "bike-1050",
+    "kind": "BIKE",
+    "name": "둔촌역 3번 출입구",
+    "address": "서울특별시 강동구 양재대로 1355",
+    "longitude": 127.13557434,
+    "latitude": 37.52678299,
+    "sourceId": "1050",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-13252/F/1/datasetView.do",
+    "sourceName": "서울시 공공자전거 대여소 정보",
+    "sourceDate": "2026-06",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "stationNumber": "1050",
+      "racks": 15,
+      "method": "LCD"
+    }
+  },
+  {
+    "id": "bike-1078",
+    "kind": "BIKE",
+    "name": "둔촌사거리",
+    "address": "성내동 449-22",
+    "longitude": 127.13362122,
+    "latitude": 37.52197647,
+    "sourceId": "1078",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-13252/F/1/datasetView.do",
+    "sourceName": "서울시 공공자전거 대여소 정보",
+    "sourceDate": "2026-06",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "stationNumber": "1078",
+      "racks": 25,
+      "method": "QR"
+    }
+  },
+  {
+    "id": "bike-1084",
+    "kind": "BIKE",
+    "name": "윤선생빌딩(JYP사옥)",
+    "address": "강남대로207(윤선생빌딩)",
+    "longitude": 127.1291275,
+    "latitude": 37.5239296,
+    "sourceId": "1084",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-13252/F/1/datasetView.do",
+    "sourceName": "서울시 공공자전거 대여소 정보",
+    "sourceDate": "2026-06",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "stationNumber": "1084",
+      "racks": 20,
+      "method": "QR"
+    }
+  },
+  {
+    "id": "bike-1213",
+    "kind": "BIKE",
+    "name": "백토공원 앞",
+    "address": "서울특별시 송파구 양재대로72길 47-8",
+    "longitude": 127.13321686,
+    "latitude": 37.50831985,
+    "sourceId": "1213",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-13252/F/1/datasetView.do",
+    "sourceName": "서울시 공공자전거 대여소 정보",
+    "sourceDate": "2026-06",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "stationNumber": "1213",
+      "racks": 12,
+      "method": "LCD"
+    }
+  },
+  {
+    "id": "bike-1215",
+    "kind": "BIKE",
+    "name": "올림픽공원역 1번출구 앞",
+    "address": "서울특별시 송파구 양재대로 지하 1233",
+    "longitude": 127.13153839,
+    "latitude": 37.51657104,
+    "sourceId": "1215",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-13252/F/1/datasetView.do",
+    "sourceName": "서울시 공공자전거 대여소 정보",
+    "sourceDate": "2026-06",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "stationNumber": "1215",
+      "racks": 15,
+      "method": "LCD"
+    }
+  },
+  {
+    "id": "bike-1218",
+    "kind": "BIKE",
+    "name": "방이역 4번출구",
+    "address": "서울특별시 송파구 양재대로 지하 1127",
+    "longitude": 127.12583923,
+    "latitude": 37.50896835,
+    "sourceId": "1218",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-13252/F/1/datasetView.do",
+    "sourceName": "서울시 공공자전거 대여소 정보",
+    "sourceDate": "2026-06",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "stationNumber": "1218",
+      "racks": 12,
+      "method": "LCD"
+    }
+  },
+  {
+    "id": "bike-1226",
+    "kind": "BIKE",
+    "name": "잠실4동 주민센터 옆",
+    "address": "서울특별시 송파구 올림픽로35길 16",
+    "longitude": 127.11236572,
+    "latitude": 37.52007675,
+    "sourceId": "1226",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-13252/F/1/datasetView.do",
+    "sourceName": "서울시 공공자전거 대여소 정보",
+    "sourceDate": "2026-06",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "stationNumber": "1226",
+      "racks": 10,
+      "method": "LCD"
+    }
+  },
+  {
+    "id": "bike-1248",
+    "kind": "BIKE",
+    "name": "방이초등학교",
+    "address": "서울특별시 송파구 위례성대로 114",
+    "longitude": 127.12167358,
+    "latitude": 37.51396179,
+    "sourceId": "1248",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-13252/F/1/datasetView.do",
+    "sourceName": "서울시 공공자전거 대여소 정보",
+    "sourceDate": "2026-06",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "stationNumber": "1248",
+      "racks": 25,
+      "method": "LCD"
+    }
+  },
+  {
+    "id": "bike-1251",
+    "kind": "BIKE",
+    "name": "석촌역 2번출구",
+    "address": "서울특별시 송파구 송파동 68",
+    "longitude": 127.10774994,
+    "latitude": 37.50593185,
+    "sourceId": "1251",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-13252/F/1/datasetView.do",
+    "sourceName": "서울시 공공자전거 대여소 정보",
+    "sourceDate": "2026-06",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "stationNumber": "1251",
+      "racks": 10,
+      "method": "LCD"
+    }
+  },
+  {
+    "id": "bike-1259",
+    "kind": "BIKE",
+    "name": "방이역 1번출구",
+    "address": "서울특별시 송파구 오금동 17-20",
+    "longitude": 127.12659454,
+    "latitude": 37.50898361,
+    "sourceId": "1259",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-13252/F/1/datasetView.do",
+    "sourceName": "서울시 공공자전거 대여소 정보",
+    "sourceDate": "2026-06",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "stationNumber": "1259",
+      "racks": 20,
+      "method": "LCD"
+    }
+  },
+  {
+    "id": "bike-1260",
+    "kind": "BIKE",
+    "name": "방이동 한양3차아파트 옆",
+    "address": "서울특별시 송파구 방이동 225-1",
+    "longitude": 127.12139893,
+    "latitude": 37.50630188,
+    "sourceId": "1260",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-13252/F/1/datasetView.do",
+    "sourceName": "서울시 공공자전거 대여소 정보",
+    "sourceDate": "2026-06",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "stationNumber": "1260",
+      "racks": 8,
+      "method": "LCD"
+    }
+  },
+  {
+    "id": "bike-1262",
+    "kind": "BIKE",
+    "name": "송파여성문화회관 앞",
+    "address": "서울특별시 송파구 송파동 2-3",
+    "longitude": 127.10971832,
+    "latitude": 37.50580215,
+    "sourceId": "1262",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-13252/F/1/datasetView.do",
+    "sourceName": "서울시 공공자전거 대여소 정보",
+    "sourceDate": "2026-06",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "stationNumber": "1262",
+      "racks": 10,
+      "method": "LCD"
+    }
+  },
+  {
+    "id": "bike-1267",
+    "kind": "BIKE",
+    "name": "올림픽공원 남2문 앞",
+    "address": "서울특별시 송파구 올림픽로 424",
+    "longitude": 127.12306976,
+    "latitude": 37.51424026,
+    "sourceId": "1267",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-13252/F/1/datasetView.do",
+    "sourceName": "서울시 공공자전거 대여소 정보",
+    "sourceDate": "2026-06",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "stationNumber": "1267",
+      "racks": 14,
+      "method": "QR"
+    }
+  },
+  {
+    "id": "bike-1268",
+    "kind": "BIKE",
+    "name": "몽촌토성역 1번출구 옆",
+    "address": "서울특별시 송파구 방이동 88-21",
+    "longitude": 127.11419678,
+    "latitude": 37.51728821,
+    "sourceId": "1268",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-13252/F/1/datasetView.do",
+    "sourceName": "서울시 공공자전거 대여소 정보",
+    "sourceDate": "2026-06",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "stationNumber": "1268",
+      "racks": 15,
+      "method": "QR"
+    }
+  },
+  {
+    "id": "bike-1277",
+    "kind": "BIKE",
+    "name": "성내7교",
+    "address": "서울특별시 송파구 마천로 164",
+    "longitude": 127.1364212,
+    "latitude": 37.50562668,
+    "sourceId": "1277",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-13252/F/1/datasetView.do",
+    "sourceName": "서울시 공공자전거 대여소 정보",
+    "sourceDate": "2026-06",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "stationNumber": "1277",
+      "racks": 15,
+      "method": "LCD"
+    }
+  },
+  {
+    "id": "bike-1278",
+    "kind": "BIKE",
+    "name": "송파구청 교차로",
+    "address": "서울특별시 송파구 올림픽로 336",
+    "longitude": 127.10681915,
+    "latitude": 37.51579666,
+    "sourceId": "1278",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-13252/F/1/datasetView.do",
+    "sourceName": "서울시 공공자전거 대여소 정보",
+    "sourceDate": "2026-06",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "stationNumber": "1278",
+      "racks": 16,
+      "method": "QR"
+    }
+  },
+  {
+    "id": "bike-1283",
+    "kind": "BIKE",
+    "name": "오금공원 사거리",
+    "address": "서울특별시 송파구 오금로 363",
+    "longitude": 127.13169098,
+    "latitude": 37.50541306,
+    "sourceId": "1283",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-13252/F/1/datasetView.do",
+    "sourceName": "서울시 공공자전거 대여소 정보",
+    "sourceDate": "2026-06",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "stationNumber": "1283",
+      "racks": 8,
+      "method": "LCD"
+    }
+  },
+  {
+    "id": "bike-1291",
+    "kind": "BIKE",
+    "name": "서울체육고등학교 앞",
+    "address": "송파구 강동대로 232",
+    "longitude": 127.13186646,
+    "latitude": 37.52193832,
+    "sourceId": "1291",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-13252/F/1/datasetView.do",
+    "sourceName": "서울시 공공자전거 대여소 정보",
+    "sourceDate": "2026-06",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "stationNumber": "1291",
+      "racks": 10,
+      "method": "LCD"
+    }
+  },
+  {
+    "id": "bike-1299",
+    "kind": "BIKE",
+    "name": "송파소방서 (방이119안전센터)",
+    "address": "송파구 방이동 89-29",
+    "longitude": 127.13671112,
+    "latitude": 37.51987839,
+    "sourceId": "1299",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-13252/F/1/datasetView.do",
+    "sourceName": "서울시 공공자전거 대여소 정보",
+    "sourceDate": "2026-06",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "stationNumber": "1299",
+      "racks": 15,
+      "method": "LCD"
+    }
+  },
+  {
+    "id": "bike-1300",
+    "kind": "BIKE",
+    "name": "오륜사거리",
+    "address": "송파구 방이동 452-17",
+    "longitude": 127.13922119,
+    "latitude": 37.50693893,
+    "sourceId": "1300",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-13252/F/1/datasetView.do",
+    "sourceName": "서울시 공공자전거 대여소 정보",
+    "sourceDate": "2026-06",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "stationNumber": "1300",
+      "racks": 15,
+      "method": "LCD"
+    }
+  },
+  {
+    "id": "bike-2608",
+    "kind": "BIKE",
+    "name": "송파구청",
+    "address": "송파구 올림픽로 326",
+    "longitude": 127.10626984,
+    "latitude": 37.5150528,
+    "sourceId": "2608",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-13252/F/1/datasetView.do",
+    "sourceName": "서울시 공공자전거 대여소 정보",
+    "sourceDate": "2026-06",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "stationNumber": "2608",
+      "racks": 10,
+      "method": "QR"
+    }
+  },
+  {
+    "id": "bike-2609",
+    "kind": "BIKE",
+    "name": "보성중고등학교 후문 앞",
+    "address": "송파구 양재대로 1278",
+    "longitude": 127.1352005,
+    "latitude": 37.52048874,
+    "sourceId": "2609",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-13252/F/1/datasetView.do",
+    "sourceName": "서울시 공공자전거 대여소 정보",
+    "sourceDate": "2026-06",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "stationNumber": "2609",
+      "racks": 10,
+      "method": "LCD"
+    }
+  },
+  {
+    "id": "bike-2620",
+    "kind": "BIKE",
+    "name": "송파나루역 4번 출구옆",
+    "address": "송파구 송파동 3-15",
+    "longitude": 127.11231232,
+    "latitude": 37.50997925,
+    "sourceId": "2620",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-13252/F/1/datasetView.do",
+    "sourceName": "서울시 공공자전거 대여소 정보",
+    "sourceDate": "2026-06",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "stationNumber": "2620",
+      "racks": 12,
+      "method": "LCD"
+    }
+  },
+  {
+    "id": "bike-2621",
+    "kind": "BIKE",
+    "name": "한성백제역 2번 출구",
+    "address": "송파구 방이동 11",
+    "longitude": 127.11625671,
+    "latitude": 37.51665878,
+    "sourceId": "2621",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-13252/F/1/datasetView.do",
+    "sourceName": "서울시 공공자전거 대여소 정보",
+    "sourceDate": "2026-06",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "stationNumber": "2621",
+      "racks": 15,
+      "method": "LCD"
+    }
+  },
+  {
+    "id": "bike-2622",
+    "kind": "BIKE",
+    "name": "올림픽공원역 3번출구",
+    "address": "송파구 방이동 89-28",
+    "longitude": 127.13059235,
+    "latitude": 37.51625824,
+    "sourceId": "2622",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-13252/F/1/datasetView.do",
+    "sourceName": "서울시 공공자전거 대여소 정보",
+    "sourceDate": "2026-06",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "stationNumber": "2622",
+      "racks": 20,
+      "method": "LCD"
+    }
+  },
+  {
+    "id": "bike-2630",
+    "kind": "BIKE",
+    "name": "서울방이동 고분군",
+    "address": "방이동 17",
+    "longitude": 127.11698914,
+    "latitude": 37.50786591,
+    "sourceId": "2630",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-13252/F/1/datasetView.do",
+    "sourceName": "서울시 공공자전거 대여소 정보",
+    "sourceDate": "2026-06",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "stationNumber": "2630",
+      "racks": 12,
+      "method": "QR"
+    }
+  },
+  {
+    "id": "bike-2639",
+    "kind": "BIKE",
+    "name": "석촌역 8번출구",
+    "address": "송파구 석촌동 209",
+    "longitude": 127.10657501,
+    "latitude": 37.50550461,
+    "sourceId": "2639",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-13252/F/1/datasetView.do",
+    "sourceName": "서울시 공공자전거 대여소 정보",
+    "sourceDate": "2026-06",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "stationNumber": "2639",
+      "racks": 18,
+      "method": "QR"
+    }
+  },
+  {
+    "id": "bike-2643",
+    "kind": "BIKE",
+    "name": "풍납중학교 측면",
+    "address": "풍납동460",
+    "longitude": 127.11694336,
+    "latitude": 37.52515793,
+    "sourceId": "2643",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-13252/F/1/datasetView.do",
+    "sourceName": "서울시 공공자전거 대여소 정보",
+    "sourceDate": "2026-06",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "stationNumber": "2643",
+      "racks": 10,
+      "method": "QR"
+    }
+  },
+  {
+    "id": "bike-2649",
+    "kind": "BIKE",
+    "name": "오금공원사거리2",
+    "address": "마천로103",
+    "longitude": 127.13233185,
+    "latitude": 37.50544357,
+    "sourceId": "2649",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-13252/F/1/datasetView.do",
+    "sourceName": "서울시 공공자전거 대여소 정보",
+    "sourceDate": "2026-06",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "stationNumber": "2649",
+      "racks": 10,
+      "method": "QR"
+    }
+  },
+  {
+    "id": "bike-2652",
+    "kind": "BIKE",
+    "name": "송파 레미니스1단지 102동 앞",
+    "address": "오금동 96",
+    "longitude": 127.13426208,
+    "latitude": 37.50883102,
+    "sourceId": "2652",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-13252/F/1/datasetView.do",
+    "sourceName": "서울시 공공자전거 대여소 정보",
+    "sourceDate": "2026-06",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "stationNumber": "2652",
+      "racks": 41,
+      "method": "QR"
+    }
+  },
+  {
+    "id": "bike-2653",
+    "kind": "BIKE",
+    "name": "올림픽공원사거리(선수촌아파트)",
+    "address": "양재대로 1218",
+    "longitude": 127.12864685,
+    "latitude": 37.51202011,
+    "sourceId": "2653",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-13252/F/1/datasetView.do",
+    "sourceName": "서울시 공공자전거 대여소 정보",
+    "sourceDate": "2026-06",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "stationNumber": "2653",
+      "racks": 25,
+      "method": "QR"
+    }
+  },
+  {
+    "id": "bike-2654",
+    "kind": "BIKE",
+    "name": "올림픽선수촌아파트 136동 앞",
+    "address": "양재대로 1218",
+    "longitude": 127.13369751,
+    "latitude": 37.50997543,
+    "sourceId": "2654",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-13252/F/1/datasetView.do",
+    "sourceName": "서울시 공공자전거 대여소 정보",
+    "sourceDate": "2026-06",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "stationNumber": "2654",
+      "racks": 10,
+      "method": "QR"
+    }
+  },
+  {
+    "id": "bike-2656",
+    "kind": "BIKE",
+    "name": "풍납동 아이파크 107동 앞",
+    "address": "올림픽로43길 34",
+    "longitude": 127.11463928,
+    "latitude": 37.52480316,
+    "sourceId": "2656",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-13252/F/1/datasetView.do",
+    "sourceName": "서울시 공공자전거 대여소 정보",
+    "sourceDate": "2026-06",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "stationNumber": "2656",
+      "racks": 10,
+      "method": "QR"
+    }
+  },
+  {
+    "id": "bike-3692",
+    "kind": "BIKE",
+    "name": "둔촌오륜역 1번 출구",
+    "address": "강동구 강동대로 303",
+    "longitude": 127.13871002,
+    "latitude": 37.51960373,
+    "sourceId": "3692",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-13252/F/1/datasetView.do",
+    "sourceName": "서울시 공공자전거 대여소 정보",
+    "sourceDate": "2026-06",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "stationNumber": "3692",
+      "racks": 10,
+      "method": "QR"
+    }
+  },
+  {
+    "id": "bike-4457",
+    "kind": "BIKE",
+    "name": "아산병원 기숙사 부근",
+    "address": "올림픽로43길 88",
+    "longitude": 127.10913086,
+    "latitude": 37.52478027,
+    "sourceId": "4457",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-13252/F/1/datasetView.do",
+    "sourceName": "서울시 공공자전거 대여소 정보",
+    "sourceDate": "2026-06",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "stationNumber": "4457",
+      "racks": 50,
+      "method": "QR"
+    }
+  },
+  {
+    "id": "bike-4461",
+    "kind": "BIKE",
+    "name": "한양3차아파트 3동 앞",
+    "address": "방이동225",
+    "longitude": 127.12194061,
+    "latitude": 37.50585175,
+    "sourceId": "4461",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-13252/F/1/datasetView.do",
+    "sourceName": "서울시 공공자전거 대여소 정보",
+    "sourceDate": "2026-06",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "stationNumber": "4461",
+      "racks": 7,
+      "method": "QR"
+    }
+  },
+  {
+    "id": "bike-4463",
+    "kind": "BIKE",
+    "name": "방이역 2번 출구",
+    "address": "오금동43",
+    "longitude": 127.12594604,
+    "latitude": 37.50801468,
+    "sourceId": "4463",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-13252/F/1/datasetView.do",
+    "sourceName": "서울시 공공자전거 대여소 정보",
+    "sourceDate": "2026-06",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "stationNumber": "4463",
+      "racks": 10,
+      "method": "QR"
+    }
+  },
+  {
+    "id": "bike-4464",
+    "kind": "BIKE",
+    "name": "올림픽공원 북2문 A",
+    "address": "방이동88-16",
+    "longitude": 127.12804413,
+    "latitude": 37.52357483,
+    "sourceId": "4464",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-13252/F/1/datasetView.do",
+    "sourceName": "서울시 공공자전거 대여소 정보",
+    "sourceDate": "2026-06",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "stationNumber": "4464",
+      "racks": 15,
+      "method": "QR"
+    }
+  },
+  {
+    "id": "bike-4481",
+    "kind": "BIKE",
+    "name": "올림픽공원 북2문 B",
+    "address": "방이동88-16",
+    "longitude": 127.12751007,
+    "latitude": 37.52397537,
+    "sourceId": "4481",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-13252/F/1/datasetView.do",
+    "sourceName": "서울시 공공자전거 대여소 정보",
+    "sourceDate": "2026-06",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "stationNumber": "4481",
+      "racks": 25,
+      "method": "QR"
+    }
+  },
+  {
+    "id": "bike-4496",
+    "kind": "BIKE",
+    "name": "잠실 파크리오 120동 앞",
+    "address": "올림픽로 435",
+    "longitude": 127.10794067,
+    "latitude": 37.51921082,
+    "sourceId": "4496",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-13252/F/1/datasetView.do",
+    "sourceName": "서울시 공공자전거 대여소 정보",
+    "sourceDate": "2026-06",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "stationNumber": "4496",
+      "racks": 10,
+      "method": "QR"
+    }
+  },
+  {
+    "id": "bike-4856",
+    "kind": "BIKE",
+    "name": "올림픽공원 서1문 앞",
+    "address": "올림픽로 424",
+    "longitude": 127.11457062,
+    "latitude": 37.5202179,
+    "sourceId": "4856",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-13252/F/1/datasetView.do",
+    "sourceName": "서울시 공공자전거 대여소 정보",
+    "sourceDate": "2026-06",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "stationNumber": "4856",
+      "racks": 10,
+      "method": "QR"
+    }
+  },
+  {
+    "id": "bike-4857",
+    "kind": "BIKE",
+    "name": "올림픽공원 장미광장",
+    "address": "방이동 88-18",
+    "longitude": 127.126297,
+    "latitude": 37.51275635,
+    "sourceId": "4857",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-13252/F/1/datasetView.do",
+    "sourceName": "서울시 공공자전거 대여소 정보",
+    "sourceDate": "2026-06",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "stationNumber": "4857",
+      "racks": 15,
+      "method": "QR"
+    }
+  },
+  {
+    "id": "bike-4862",
+    "kind": "BIKE",
+    "name": "성내교 남단",
+    "address": "마천동 307-1",
+    "longitude": 127.11588287,
+    "latitude": 37.52301788,
+    "sourceId": "4862",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-13252/F/1/datasetView.do",
+    "sourceName": "서울시 공공자전거 대여소 정보",
+    "sourceDate": "2026-06",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "stationNumber": "4862",
+      "racks": 10,
+      "method": "QR"
+    }
+  },
+  {
+    "id": "bike-4865",
+    "kind": "BIKE",
+    "name": "한성백제역 1번출구 뒤",
+    "address": "송파구 방이동 45-4",
+    "longitude": 127.1149826,
+    "latitude": 37.51647949,
+    "sourceId": "4865",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-13252/F/1/datasetView.do",
+    "sourceName": "서울시 공공자전거 대여소 정보",
+    "sourceDate": "2026-06",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "stationNumber": "4865",
+      "racks": 5,
+      "method": "QR"
+    }
+  },
+  {
+    "id": "bike-4870",
+    "kind": "BIKE",
+    "name": "몽촌토성역 3번 출구",
+    "address": "송파구 방이동 40-6",
+    "longitude": 127.11232758,
+    "latitude": 37.5170784,
+    "sourceId": "4870",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-13252/F/1/datasetView.do",
+    "sourceName": "서울시 공공자전거 대여소 정보",
+    "sourceDate": "2026-06",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "stationNumber": "4870",
+      "racks": 10,
+      "method": "QR"
+    }
+  },
+  {
+    "id": "bike-4871",
+    "kind": "BIKE",
+    "name": "오금동 대림아파트 정문",
+    "address": "송파구 오금동 2",
+    "longitude": 127.13040161,
+    "latitude": 37.51072693,
+    "sourceId": "4871",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-13252/F/1/datasetView.do",
+    "sourceName": "서울시 공공자전거 대여소 정보",
+    "sourceDate": "2026-06",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "stationNumber": "4871",
+      "racks": 7,
+      "method": "QR"
+    }
+  },
+  {
+    "id": "bike-4888",
+    "kind": "BIKE",
+    "name": "둔촌오륜역 2번출구",
+    "address": "방이동 89-29",
+    "longitude": 127.13906097,
+    "latitude": 37.51869202,
+    "sourceId": "4888",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-13252/F/1/datasetView.do",
+    "sourceName": "서울시 공공자전거 대여소 정보",
+    "sourceDate": "2026-06",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "stationNumber": "4888",
+      "racks": 10,
+      "method": "QR"
+    }
+  },
+  {
+    "id": "bike-4892",
+    "kind": "BIKE",
+    "name": "성내유수지 체육공원",
+    "address": "송파구 방이동 88-13",
+    "longitude": 127.11820984,
+    "latitude": 37.52597046,
+    "sourceId": "4892",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-13252/F/1/datasetView.do",
+    "sourceName": "서울시 공공자전거 대여소 정보",
+    "sourceDate": "2026-06",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "stationNumber": "4892",
+      "racks": 18,
+      "method": "QR"
+    }
+  },
+  {
+    "id": "bike-5751",
+    "kind": "BIKE",
+    "name": "송파여성축구장",
+    "address": "방이동 88-9",
+    "longitude": 127.11743927,
+    "latitude": 37.52471542,
+    "sourceId": "5751",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-13252/F/1/datasetView.do",
+    "sourceName": "서울시 공공자전거 대여소 정보",
+    "sourceDate": "2026-06",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "stationNumber": "5751",
+      "racks": 10,
+      "method": "QR"
+    }
+  },
+  {
+    "id": "bike-5756",
+    "kind": "BIKE",
+    "name": "극동아파트",
+    "address": "송파구 풍납동 436",
+    "longitude": 127.11676025,
+    "latitude": 37.52618027,
+    "sourceId": "5756",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-13252/F/1/datasetView.do",
+    "sourceName": "서울시 공공자전거 대여소 정보",
+    "sourceDate": "2026-06",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "stationNumber": "5756",
+      "racks": 10,
+      "method": "QR"
+    }
+  },
+  {
+    "id": "bike-5758",
+    "kind": "BIKE",
+    "name": "올림픽선수기자촌아파트 123동 근처",
+    "address": "송파구 방이동 89-2",
+    "longitude": 127.13167572,
+    "latitude": 37.51064301,
+    "sourceId": "5758",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-13252/F/1/datasetView.do",
+    "sourceName": "서울시 공공자전거 대여소 정보",
+    "sourceDate": "2026-06",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "stationNumber": "5758",
+      "racks": 10,
+      "method": "QR"
+    }
+  },
+  {
+    "id": "bike-5763",
+    "kind": "BIKE",
+    "name": "세륜초등학교 건너편",
+    "address": "송파구 방이동 89-28",
+    "longitude": 127.13262177,
+    "latitude": 37.51919556,
+    "sourceId": "5763",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-13252/F/1/datasetView.do",
+    "sourceName": "서울시 공공자전거 대여소 정보",
+    "sourceDate": "2026-06",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "stationNumber": "5763",
+      "racks": 10,
+      "method": "QR"
+    }
+  },
+  {
+    "id": "bike-5764",
+    "kind": "BIKE",
+    "name": "한국체육대학교",
+    "address": "송파구 방이동 89-28",
+    "longitude": 127.13178253,
+    "latitude": 37.51795959,
+    "sourceId": "5764",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-13252/F/1/datasetView.do",
+    "sourceName": "서울시 공공자전거 대여소 정보",
+    "sourceDate": "2026-06",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "stationNumber": "5764",
+      "racks": 8,
+      "method": "QR"
+    }
+  },
+  {
+    "id": "bike-5768",
+    "kind": "BIKE",
+    "name": "방이삼거리",
+    "address": "송파구 방이동 66-3",
+    "longitude": 127.10825348,
+    "latitude": 37.51229095,
+    "sourceId": "5768",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-13252/F/1/datasetView.do",
+    "sourceName": "서울시 공공자전거 대여소 정보",
+    "sourceDate": "2026-06",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "stationNumber": "5768",
+      "racks": 12,
+      "method": "QR"
+    }
+  },
+  {
+    "id": "bike-5780",
+    "kind": "BIKE",
+    "name": "송파세무서",
+    "address": "송파구 풍납동 388-6",
+    "longitude": 127.11369324,
+    "latitude": 37.52646255,
+    "sourceId": "5780",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-13252/F/1/datasetView.do",
+    "sourceName": "서울시 공공자전거 대여소 정보",
+    "sourceDate": "2026-06",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "stationNumber": "5780",
+      "racks": 10,
+      "method": "QR"
+    }
+  },
+  {
+    "id": "bike-5781",
+    "kind": "BIKE",
+    "name": "올림픽공원 수영장",
+    "address": "송파구 올림픽로 424",
+    "longitude": 127.12688446,
+    "latitude": 37.52157211,
+    "sourceId": "5781",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-13252/F/1/datasetView.do",
+    "sourceName": "서울시 공공자전거 대여소 정보",
+    "sourceDate": "2026-06",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "stationNumber": "5781",
+      "racks": 14,
+      "method": "QR"
+    }
+  },
+  {
+    "id": "parking-1277145",
+    "kind": "PARKING",
+    "name": "잠실역 공영주차장(시)",
+    "address": "송파구 신천동 27-0",
+    "longitude": 127.10341414,
+    "latitude": 37.51427683,
+    "sourceId": "1277145",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-13122/S/1/datasetView.do",
+    "sourceName": "서울시 공영주차장 안내 정보",
+    "sourceDate": "2026-04-07 10:39:23",
+    "collectedAt": "2026-10-11T11:00:20.317222+00:00",
+    "details": {
+      "type": "노외 주차장",
+      "charge": "유료",
+      "basicFee": 440,
+      "basicMinutes": 5,
+      "weekdayHours": "0500–0100",
+      "phone": "02-2290-6402",
+      "capacity": 357,
+      "coordinateNote": "원본 좌표"
+    }
+  },
+  {
+    "id": "parking-1441386",
+    "kind": "PARKING",
+    "name": "송파나루공원 동호주차장(구)",
+    "address": "송파구 신천동 32-0",
+    "longitude": 127.106376,
+    "latitude": 37.513126,
+    "sourceId": "1441386",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-21285/A/1/datasetView.do",
+    "sourceName": "서울시 실시간 도시데이터 주차장 목록",
+    "sourceDate": "자료별 기준일 미제공",
+    "collectedAt": "2026-10-11T11:59:22.372733+00:00",
+    "details": {
+      "type": "노외 주차장",
+      "charge": "유료",
+      "basicFee": 500,
+      "basicMinutes": 5,
+      "capacity": 20,
+      "coordinateNote": "서울시 도시데이터 원본 좌표",
+      "accessNote": "외부 차량 이용 조건과 요금 할인은 현장에서 확인해 주세요."
+    }
+  },
+  {
+    "id": "parking-1475224",
+    "kind": "PARKING",
+    "name": "성내역(잠실나루역) 공영주차장(시)",
+    "address": "송파구 신천동 11-1",
+    "longitude": 127.10501915,
+    "latitude": 37.51773241,
+    "sourceId": "1475224",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-13122/S/1/datasetView.do",
+    "sourceName": "서울시 공영주차장 안내 정보",
+    "sourceDate": "2026-04-07 11:15:54",
+    "collectedAt": "2026-10-11T11:00:20.317222+00:00",
+    "details": {
+      "type": "노상 주차장",
+      "charge": "유료",
+      "basicFee": 270,
+      "basicMinutes": 5,
+      "weekdayHours": "0900–1800",
+      "phone": "",
+      "capacity": null,
+      "coordinateNote": "노상 주차구획의 대표 좌표"
+    }
+  },
+  {
+    "id": "parking-173646",
+    "kind": "PARKING",
+    "name": "신천유수지 공영주차장(시)",
+    "address": "송파구 신천동 14-0",
+    "longitude": 127.10290327,
+    "latitude": 37.52231457,
+    "sourceId": "173646",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-13122/S/1/datasetView.do",
+    "sourceName": "서울시 공영주차장 안내 정보",
+    "sourceDate": "2026-04-06 17:45:45",
+    "collectedAt": "2026-10-11T11:00:20.317222+00:00",
+    "details": {
+      "type": "노외 주차장",
+      "charge": "유료",
+      "basicFee": 440,
+      "basicMinutes": 5,
+      "weekdayHours": "0000–2400",
+      "phone": "02-414-6417",
+      "capacity": 192,
+      "coordinateNote": "원본 좌표"
+    }
+  },
+  {
+    "id": "parking-1830186",
+    "kind": "PARKING",
+    "name": "J타워 주차장",
+    "address": "송파구 석촌동 158-11",
+    "longitude": 127.10163264,
+    "latitude": 37.50699491,
+    "sourceId": "1830186",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-21285/A/1/datasetView.do",
+    "sourceName": "서울시 실시간 도시데이터 주차장 목록",
+    "sourceDate": "자료별 기준일 미제공",
+    "collectedAt": "2026-10-11T11:59:22.372733+00:00",
+    "details": {
+      "type": "부설 주차장",
+      "charge": "유료",
+      "basicFee": 2000,
+      "basicMinutes": 30,
+      "capacity": 52,
+      "coordinateNote": "서울시 도시데이터 원본 좌표",
+      "accessNote": "외부 차량 이용 조건과 요금 할인은 현장에서 확인해 주세요."
+    }
+  },
+  {
+    "id": "parking-1910610",
+    "kind": "PARKING",
+    "name": "롯데월드타워몰 주차장",
+    "address": "송파구 신천동 29-0",
+    "longitude": 127.103274,
+    "latitude": 37.513214,
+    "sourceId": "1910610",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-21285/A/1/datasetView.do",
+    "sourceName": "서울시 실시간 도시데이터 주차장 목록",
+    "sourceDate": "자료별 기준일 미제공",
+    "collectedAt": "2026-10-11T11:59:22.372733+00:00",
+    "details": {
+      "type": "부설 주차장",
+      "charge": "유료",
+      "basicFee": 500,
+      "basicMinutes": 10,
+      "capacity": 2969,
+      "coordinateNote": "서울시 도시데이터 원본 좌표",
+      "accessNote": "외부 차량 이용 조건과 요금 할인은 현장에서 확인해 주세요."
+    }
+  },
+  {
+    "id": "parking-3211130",
+    "kind": "PARKING",
+    "name": "엠와이빌딩 주차장",
+    "address": "송파구 송파동 32-0",
+    "longitude": 127.1060725,
+    "latitude": 37.5101033,
+    "sourceId": "3211130",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-21285/A/1/datasetView.do",
+    "sourceName": "서울시 실시간 도시데이터 주차장 목록",
+    "sourceDate": "자료별 기준일 미제공",
+    "collectedAt": "2026-10-11T11:59:22.372733+00:00",
+    "details": {
+      "type": "부설 주차장",
+      "charge": "유료",
+      "basicFee": 2000,
+      "basicMinutes": 30,
+      "capacity": 7,
+      "coordinateNote": "서울시 도시데이터 원본 좌표",
+      "accessNote": "외부 차량 이용 조건과 요금 할인은 현장에서 확인해 주세요."
+    }
+  },
+  {
+    "id": "parking-3214558",
+    "kind": "PARKING",
+    "name": "잠실대명밸리온",
+    "address": "송파구 방이동 43-0",
+    "longitude": 127.111169,
+    "latitude": 37.515711,
+    "sourceId": "3214558",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-21285/A/1/datasetView.do",
+    "sourceName": "서울시 실시간 도시데이터 주차장 목록",
+    "sourceDate": "자료별 기준일 미제공",
+    "collectedAt": "2026-10-11T11:59:22.372733+00:00",
+    "details": {
+      "type": "부설 주차장",
+      "charge": "유료",
+      "basicFee": 1000,
+      "basicMinutes": 10,
+      "capacity": 180,
+      "coordinateNote": "서울시 도시데이터 원본 좌표",
+      "accessNote": "외부 차량 이용 조건과 요금 할인은 현장에서 확인해 주세요."
+    }
+  },
+  {
+    "id": "parking-3218335",
+    "kind": "PARKING",
+    "name": "국제빌딩 주차장",
+    "address": "송파구 방이동 65-6",
+    "longitude": 127.1077347,
+    "latitude": 37.5137621,
+    "sourceId": "3218335",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-21285/A/1/datasetView.do",
+    "sourceName": "서울시 실시간 도시데이터 주차장 목록",
+    "sourceDate": "자료별 기준일 미제공",
+    "collectedAt": "2026-10-11T11:59:22.372733+00:00",
+    "details": {
+      "type": "부설 주차장",
+      "charge": "유료",
+      "basicFee": 6000,
+      "basicMinutes": 60,
+      "capacity": 18,
+      "coordinateNote": "서울시 도시데이터 원본 좌표",
+      "accessNote": "외부 차량 이용 조건과 요금 할인은 현장에서 확인해 주세요."
+    }
+  },
+  {
+    "id": "parking-3218432",
+    "kind": "PARKING",
+    "name": "아펙스 주차장",
+    "address": "송파구 방이동 63-1",
+    "longitude": 127.108794,
+    "latitude": 37.514059,
+    "sourceId": "3218432",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-21285/A/1/datasetView.do",
+    "sourceName": "서울시 실시간 도시데이터 주차장 목록",
+    "sourceDate": "자료별 기준일 미제공",
+    "collectedAt": "2026-10-11T11:59:22.372733+00:00",
+    "details": {
+      "type": "부설 주차장",
+      "charge": "유료",
+      "basicFee": 2000,
+      "basicMinutes": 30,
+      "capacity": 14,
+      "coordinateNote": "서울시 도시데이터 원본 좌표",
+      "accessNote": "외부 차량 이용 조건과 요금 할인은 현장에서 확인해 주세요."
+    }
+  },
+  {
+    "id": "parking-3219731",
+    "kind": "PARKING",
+    "name": "소피텔앰베서더서울 주차장",
+    "address": "송파구 신천동 29-1",
+    "longitude": 127.106426,
+    "latitude": 37.513887,
+    "sourceId": "3219731",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-21285/A/1/datasetView.do",
+    "sourceName": "서울시 실시간 도시데이터 주차장 목록",
+    "sourceDate": "자료별 기준일 미제공",
+    "collectedAt": "2026-10-11T11:59:22.372733+00:00",
+    "details": {
+      "type": "부설 주차장",
+      "charge": "유료",
+      "basicFee": 1000,
+      "basicMinutes": 10,
+      "capacity": 463,
+      "coordinateNote": "서울시 도시데이터 원본 좌표",
+      "accessNote": "외부 차량 이용 조건과 요금 할인은 현장에서 확인해 주세요."
+    }
+  },
+  {
+    "id": "parking-3220979",
+    "kind": "PARKING",
+    "name": "아이스페이스 잠실2 주차장",
+    "address": "송파구 방이동 35-4",
+    "longitude": 127.109581,
+    "latitude": 37.516109,
+    "sourceId": "3220979",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-21285/A/1/datasetView.do",
+    "sourceName": "서울시 실시간 도시데이터 주차장 목록",
+    "sourceDate": "자료별 기준일 미제공",
+    "collectedAt": "2026-10-11T11:59:22.372733+00:00",
+    "details": {
+      "type": "부설 주차장",
+      "charge": "유료",
+      "basicFee": 5000,
+      "basicMinutes": 60,
+      "capacity": 69,
+      "coordinateNote": "서울시 도시데이터 원본 좌표",
+      "accessNote": "외부 차량 이용 조건과 요금 할인은 현장에서 확인해 주세요."
+    }
+  },
+  {
+    "id": "parking-3221373",
+    "kind": "PARKING",
+    "name": "미켈란 호수家 주차장",
+    "address": "송파구 석촌동 158-5",
+    "longitude": 127.102464,
+    "latitude": 37.507401,
+    "sourceId": "3221373",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-21285/A/1/datasetView.do",
+    "sourceName": "서울시 실시간 도시데이터 주차장 목록",
+    "sourceDate": "자료별 기준일 미제공",
+    "collectedAt": "2026-10-11T11:59:22.372733+00:00",
+    "details": {
+      "type": "부설 주차장",
+      "charge": "유료",
+      "basicFee": 2000,
+      "basicMinutes": 60,
+      "capacity": 174,
+      "coordinateNote": "서울시 도시데이터 원본 좌표",
+      "accessNote": "외부 차량 이용 조건과 요금 할인은 현장에서 확인해 주세요."
+    }
+  },
+  {
+    "id": "parking-3222236",
+    "kind": "PARKING",
+    "name": "사보이시티 민영주차장",
+    "address": "송파구 방이동 46-2",
+    "longitude": 127.112312,
+    "latitude": 37.516016,
+    "sourceId": "3222236",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-21285/A/1/datasetView.do",
+    "sourceName": "서울시 실시간 도시데이터 주차장 목록",
+    "sourceDate": "자료별 기준일 미제공",
+    "collectedAt": "2026-10-11T11:59:22.372733+00:00",
+    "details": {
+      "type": "부설 주차장",
+      "charge": "유료",
+      "basicFee": 4000,
+      "basicMinutes": 60,
+      "capacity": 261,
+      "coordinateNote": "서울시 도시데이터 원본 좌표",
+      "accessNote": "외부 차량 이용 조건과 요금 할인은 현장에서 확인해 주세요."
+    }
+  },
+  {
+    "id": "parking-3224332",
+    "kind": "PARKING",
+    "name": "레이크사이드 타워 주차장",
+    "address": "송파구 송파동 58-0",
+    "longitude": 127.107815,
+    "latitude": 37.511468,
+    "sourceId": "3224332",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-21285/A/1/datasetView.do",
+    "sourceName": "서울시 실시간 도시데이터 주차장 목록",
+    "sourceDate": "자료별 기준일 미제공",
+    "collectedAt": "2026-10-11T11:59:22.372733+00:00",
+    "details": {
+      "type": "부설 주차장",
+      "charge": "유료",
+      "basicFee": 3000,
+      "basicMinutes": 120,
+      "capacity": 24,
+      "coordinateNote": "서울시 도시데이터 원본 좌표",
+      "accessNote": "외부 차량 이용 조건과 요금 할인은 현장에서 확인해 주세요."
+    }
+  },
+  {
+    "id": "parking-3225310",
+    "kind": "PARKING",
+    "name": "효성플라자 주차장",
+    "address": "송파구 방이동 64-12",
+    "longitude": 127.1086546,
+    "latitude": 37.5143154,
+    "sourceId": "3225310",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-21285/A/1/datasetView.do",
+    "sourceName": "서울시 실시간 도시데이터 주차장 목록",
+    "sourceDate": "자료별 기준일 미제공",
+    "collectedAt": "2026-10-11T11:59:22.372733+00:00",
+    "details": {
+      "type": "부설 주차장",
+      "charge": "유료",
+      "basicFee": 4000,
+      "basicMinutes": 60,
+      "capacity": 131,
+      "coordinateNote": "서울시 도시데이터 원본 좌표",
+      "accessNote": "외부 차량 이용 조건과 요금 할인은 현장에서 확인해 주세요."
+    }
+  },
+  {
+    "id": "parking-3227756",
+    "kind": "PARKING",
+    "name": "성남주차장",
+    "address": "송파구 방이동 59-3",
+    "longitude": 127.1102871,
+    "latitude": 37.5149491,
+    "sourceId": "3227756",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-21285/A/1/datasetView.do",
+    "sourceName": "서울시 실시간 도시데이터 주차장 목록",
+    "sourceDate": "자료별 기준일 미제공",
+    "collectedAt": "2026-10-11T11:59:22.372733+00:00",
+    "details": {
+      "type": "부설 주차장",
+      "charge": "유료",
+      "basicFee": 2000,
+      "basicMinutes": 30,
+      "capacity": 10,
+      "coordinateNote": "서울시 도시데이터 원본 좌표",
+      "accessNote": "외부 차량 이용 조건과 요금 할인은 현장에서 확인해 주세요."
+    }
+  },
+  {
+    "id": "parking-3229278",
+    "kind": "PARKING",
+    "name": "서울 송파 올림픽공원",
+    "address": "송파구 방이동 88-2",
+    "longitude": 127.126027,
+    "latitude": 37.517033,
+    "sourceId": "3229278",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-21285/A/1/datasetView.do",
+    "sourceName": "서울시 실시간 도시데이터 주차장 목록",
+    "sourceDate": "자료별 기준일 미제공",
+    "collectedAt": "2026-10-11T11:59:22.191093+00:00",
+    "details": {
+      "type": "부설 주차장",
+      "charge": "유료",
+      "basicFee": 600,
+      "basicMinutes": 10,
+      "capacity": 2120,
+      "coordinateNote": "서울시 도시데이터 원본 좌표",
+      "accessNote": "외부 차량 이용 조건과 요금 할인은 현장에서 확인해 주세요."
+    }
+  },
+  {
+    "id": "parking-3232107",
+    "kind": "PARKING",
+    "name": "파킹몬스터 방이점 민영주차장",
+    "address": "송파구 방이동 59-0",
+    "longitude": 127.1095825,
+    "latitude": 37.5145871,
+    "sourceId": "3232107",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-21285/A/1/datasetView.do",
+    "sourceName": "서울시 실시간 도시데이터 주차장 목록",
+    "sourceDate": "자료별 기준일 미제공",
+    "collectedAt": "2026-10-11T11:59:22.372733+00:00",
+    "details": {
+      "type": "부설 주차장",
+      "charge": "유료",
+      "basicFee": 6000,
+      "basicMinutes": 60,
+      "capacity": 12,
+      "coordinateNote": "서울시 도시데이터 원본 좌표",
+      "accessNote": "외부 차량 이용 조건과 요금 할인은 현장에서 확인해 주세요."
+    }
+  },
+  {
+    "id": "parking-3234278",
+    "kind": "PARKING",
+    "name": "잠실아르누보팰리스 주차장",
+    "address": "송파구 송파동 7-1",
+    "longitude": 127.104909,
+    "latitude": 37.509057,
+    "sourceId": "3234278",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-21285/A/1/datasetView.do",
+    "sourceName": "서울시 실시간 도시데이터 주차장 목록",
+    "sourceDate": "자료별 기준일 미제공",
+    "collectedAt": "2026-10-11T11:59:22.372733+00:00",
+    "details": {
+      "type": "부설 주차장",
+      "charge": "유료",
+      "basicFee": 1000,
+      "basicMinutes": 15,
+      "capacity": 122,
+      "coordinateNote": "서울시 도시데이터 원본 좌표",
+      "accessNote": "외부 차량 이용 조건과 요금 할인은 현장에서 확인해 주세요."
+    }
+  },
+  {
+    "id": "parking-3235211",
+    "kind": "PARKING",
+    "name": "현대드림밸리 주차장",
+    "address": "송파구 방이동 34-2",
+    "longitude": 127.108741,
+    "latitude": 37.514999,
+    "sourceId": "3235211",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-21285/A/1/datasetView.do",
+    "sourceName": "서울시 실시간 도시데이터 주차장 목록",
+    "sourceDate": "자료별 기준일 미제공",
+    "collectedAt": "2026-10-11T11:59:22.372733+00:00",
+    "details": {
+      "type": "부설 주차장",
+      "charge": "유료",
+      "basicFee": 1000,
+      "basicMinutes": 10,
+      "capacity": 26,
+      "coordinateNote": "서울시 도시데이터 원본 좌표",
+      "accessNote": "외부 차량 이용 조건과 요금 할인은 현장에서 확인해 주세요."
+    }
+  },
+  {
+    "id": "parking-3237735",
+    "kind": "PARKING",
+    "name": "태원빌딩 주차장",
+    "address": "송파구 방이동 65-0",
+    "longitude": 127.107616,
+    "latitude": 37.514025,
+    "sourceId": "3237735",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-21285/A/1/datasetView.do",
+    "sourceName": "서울시 실시간 도시데이터 주차장 목록",
+    "sourceDate": "자료별 기준일 미제공",
+    "collectedAt": "2026-10-11T11:59:22.372733+00:00",
+    "details": {
+      "type": "부설 주차장",
+      "charge": "유료",
+      "basicFee": 6000,
+      "basicMinutes": 60,
+      "capacity": 70,
+      "coordinateNote": "서울시 도시데이터 원본 좌표",
+      "accessNote": "외부 차량 이용 조건과 요금 할인은 현장에서 확인해 주세요."
+    }
+  },
+  {
+    "id": "parking-3238050",
+    "kind": "PARKING",
+    "name": "LG베스트샵송파점 주차장",
+    "address": "송파구 송파동 7-0",
+    "longitude": 127.104575,
+    "latitude": 37.508775,
+    "sourceId": "3238050",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-21285/A/1/datasetView.do",
+    "sourceName": "서울시 실시간 도시데이터 주차장 목록",
+    "sourceDate": "자료별 기준일 미제공",
+    "collectedAt": "2026-10-11T11:59:22.372733+00:00",
+    "details": {
+      "type": "부설 주차장",
+      "charge": "유료",
+      "basicFee": 12000,
+      "basicMinutes": 60,
+      "capacity": 9,
+      "coordinateNote": "서울시 도시데이터 원본 좌표",
+      "accessNote": "외부 차량 이용 조건과 요금 할인은 현장에서 확인해 주세요."
+    }
+  },
+  {
+    "id": "parking-3238629",
+    "kind": "PARKING",
+    "name": "서호1(구)",
+    "address": "송파구 잠실동 42-0",
+    "longitude": 127.101005,
+    "latitude": 37.510501,
+    "sourceId": "3238629",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-21285/A/1/datasetView.do",
+    "sourceName": "서울시 실시간 도시데이터 주차장 목록",
+    "sourceDate": "자료별 기준일 미제공",
+    "collectedAt": "2026-10-11T11:59:22.372733+00:00",
+    "details": {
+      "type": "노외 주차장",
+      "charge": "유료",
+      "basicFee": 500,
+      "basicMinutes": 5,
+      "capacity": 15,
+      "coordinateNote": "서울시 도시데이터 원본 좌표",
+      "accessNote": "외부 차량 이용 조건과 요금 할인은 현장에서 확인해 주세요."
+    }
+  },
+  {
+    "id": "parking-3240180",
+    "kind": "PARKING",
+    "name": "송파구 방이동 44-3",
+    "address": "송파구 방이동 44-3",
+    "longitude": 127.1129791,
+    "latitude": 37.5167846,
+    "sourceId": "3240180",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-21285/A/1/datasetView.do",
+    "sourceName": "서울시 실시간 도시데이터 주차장 목록",
+    "sourceDate": "자료별 기준일 미제공",
+    "collectedAt": "2026-10-11T11:59:22.372733+00:00",
+    "details": {
+      "type": "부설 주차장",
+      "charge": "유료",
+      "basicFee": 3000,
+      "basicMinutes": 60,
+      "capacity": 152,
+      "coordinateNote": "서울시 도시데이터 원본 좌표",
+      "accessNote": "외부 차량 이용 조건과 요금 할인은 현장에서 확인해 주세요."
+    }
+  },
+  {
+    "id": "parking-3242835",
+    "kind": "PARKING",
+    "name": "한성백제박물관 주차장",
+    "address": "송파구 방이동 88-20",
+    "longitude": 127.120798,
+    "latitude": 37.515347,
+    "sourceId": "3242835",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-21285/A/1/datasetView.do",
+    "sourceName": "서울시 실시간 도시데이터 주차장 목록",
+    "sourceDate": "자료별 기준일 미제공",
+    "collectedAt": "2026-10-11T11:59:22.191093+00:00",
+    "details": {
+      "type": "부설 주차장",
+      "charge": "유료",
+      "basicFee": 600,
+      "basicMinutes": 10,
+      "capacity": 142,
+      "coordinateNote": "서울시 도시데이터 원본 좌표",
+      "accessNote": "외부 차량 이용 조건과 요금 할인은 현장에서 확인해 주세요."
+    }
+  },
+  {
+    "id": "parking-3243206",
+    "kind": "PARKING",
+    "name": "올림픽공원 남3문 주차장",
+    "address": "송파구 방이동 88-21",
+    "longitude": 127.1184981,
+    "latitude": 37.5161214,
+    "sourceId": "3243206",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-21285/A/1/datasetView.do",
+    "sourceName": "서울시 실시간 도시데이터 주차장 목록",
+    "sourceDate": "자료별 기준일 미제공",
+    "collectedAt": "2026-10-11T11:59:22.191093+00:00",
+    "details": {
+      "type": "부설 주차장",
+      "charge": "유료",
+      "basicFee": 600,
+      "basicMinutes": 10,
+      "capacity": 254,
+      "coordinateNote": "서울시 도시데이터 원본 좌표",
+      "accessNote": "외부 차량 이용 조건과 요금 할인은 현장에서 확인해 주세요."
+    }
+  },
+  {
+    "id": "parking-3243279",
+    "kind": "PARKING",
+    "name": "신동아타워주차장",
+    "address": "송파구 방이동 39-2",
+    "longitude": 127.11063,
+    "latitude": 37.515628,
+    "sourceId": "3243279",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-21285/A/1/datasetView.do",
+    "sourceName": "서울시 실시간 도시데이터 주차장 목록",
+    "sourceDate": "자료별 기준일 미제공",
+    "collectedAt": "2026-10-11T11:59:22.372733+00:00",
+    "details": {
+      "type": "부설 주차장",
+      "charge": "유료",
+      "basicFee": 2000,
+      "basicMinutes": 30,
+      "capacity": 160,
+      "coordinateNote": "서울시 도시데이터 원본 좌표",
+      "accessNote": "외부 차량 이용 조건과 요금 할인은 현장에서 확인해 주세요."
+    }
+  },
+  {
+    "id": "parking-3243551",
+    "kind": "PARKING",
+    "name": "한길빌딩 주차장",
+    "address": "송파구 방이동 65-7",
+    "longitude": 127.107988,
+    "latitude": 37.513637,
+    "sourceId": "3243551",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-21285/A/1/datasetView.do",
+    "sourceName": "서울시 실시간 도시데이터 주차장 목록",
+    "sourceDate": "자료별 기준일 미제공",
+    "collectedAt": "2026-10-11T11:59:22.372733+00:00",
+    "details": {
+      "type": "부설 주차장",
+      "charge": "유료",
+      "basicFee": 1000,
+      "basicMinutes": 15,
+      "capacity": 80,
+      "coordinateNote": "서울시 도시데이터 원본 좌표",
+      "accessNote": "외부 차량 이용 조건과 요금 할인은 현장에서 확인해 주세요."
+    }
+  },
+  {
+    "id": "parking-3244527",
+    "kind": "PARKING",
+    "name": "송파구청 주차장",
+    "address": "송파구 신천동 29-5",
+    "longitude": 127.106091,
+    "latitude": 37.514583,
+    "sourceId": "3244527",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-21285/A/1/datasetView.do",
+    "sourceName": "서울시 실시간 도시데이터 주차장 목록",
+    "sourceDate": "자료별 기준일 미제공",
+    "collectedAt": "2026-10-11T11:59:22.372733+00:00",
+    "details": {
+      "type": "부설 주차장",
+      "charge": "유료",
+      "basicFee": 0,
+      "basicMinutes": 30,
+      "capacity": 163,
+      "coordinateNote": "서울시 도시데이터 원본 좌표",
+      "accessNote": "외부 차량 이용 조건과 요금 할인은 현장에서 확인해 주세요."
+    }
+  },
+  {
+    "id": "parking-3246205",
+    "kind": "PARKING",
+    "name": "서울송파 올림픽공원 회관 외 주차장",
+    "address": "송파구 방이동 88-1",
+    "longitude": 127.1161715,
+    "latitude": 37.5184393,
+    "sourceId": "3246205",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-21285/A/1/datasetView.do",
+    "sourceName": "서울시 실시간 도시데이터 주차장 목록",
+    "sourceDate": "자료별 기준일 미제공",
+    "collectedAt": "2026-10-11T11:59:22.191093+00:00",
+    "details": {
+      "type": "부설 주차장",
+      "charge": "유료",
+      "basicFee": 600,
+      "basicMinutes": 10,
+      "capacity": 200,
+      "coordinateNote": "서울시 도시데이터 원본 좌표",
+      "accessNote": "외부 차량 이용 조건과 요금 할인은 현장에서 확인해 주세요."
+    }
+  },
+  {
+    "id": "parking-3246470",
+    "kind": "PARKING",
+    "name": "기광주차장(민영)",
+    "address": "송파구 방이동 50-14",
+    "longitude": 127.1144083,
+    "latitude": 37.51567501,
+    "sourceId": "3246470",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-21285/A/1/datasetView.do",
+    "sourceName": "서울시 실시간 도시데이터 주차장 목록",
+    "sourceDate": "자료별 기준일 미제공",
+    "collectedAt": "2026-10-11T11:59:22.372733+00:00",
+    "details": {
+      "type": "주차장",
+      "charge": "유료",
+      "basicFee": 2000,
+      "basicMinutes": 30,
+      "capacity": 10,
+      "coordinateNote": "서울시 도시데이터 원본 좌표",
+      "accessNote": "외부 차량 이용 조건과 요금 할인은 현장에서 확인해 주세요."
+    }
+  },
+  {
+    "id": "parking-777918",
+    "kind": "PARKING",
+    "name": "송파빌딩 주차장",
+    "address": "송파구 방이동 22-3",
+    "longitude": 127.10725577,
+    "latitude": 37.51511711,
+    "sourceId": "777918",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-21285/A/1/datasetView.do",
+    "sourceName": "서울시 실시간 도시데이터 주차장 목록",
+    "sourceDate": "자료별 기준일 미제공",
+    "collectedAt": "2026-10-11T11:59:22.372733+00:00",
+    "details": {
+      "type": "부설 주차장",
+      "charge": "유료",
+      "basicFee": 2000,
+      "basicMinutes": 30,
+      "capacity": 70,
+      "coordinateNote": "서울시 도시데이터 원본 좌표",
+      "accessNote": "외부 차량 이용 조건과 요금 할인은 현장에서 확인해 주세요."
+    }
+  },
+  {
+    "id": "toilet-285088",
+    "kind": "TOILET",
+    "name": "방이지구대",
+    "address": "서울특별시 송파구 양재대로71길 5-6",
+    "longitude": 127.12574563,
+    "latitude": 37.51024773,
+    "sourceId": "285088",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-22586/S/1/datasetView.do",
+    "sourceName": "서울시 공중화장실 위치정보",
+    "sourceDate": "자료별 기준일 미제공",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "hours": "상시(24시간)",
+      "accessibility": "",
+      "amenities": "",
+      "type": "공공개방",
+      "phone": "02-3402-6301"
+    }
+  },
+  {
+    "id": "toilet-285327",
+    "kind": "TOILET",
+    "name": "백토공원 화장실",
+    "address": "서울특별시 송파구 양재대로72길 47-8",
+    "longitude": 127.13212248,
+    "latitude": 37.50811545,
+    "sourceId": "285327",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-22586/S/1/datasetView.do",
+    "sourceName": "서울시 공중화장실 위치정보",
+    "sourceDate": "자료별 기준일 미제공",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "hours": "상시(24시간)",
+      "accessibility": "남자, 여자",
+      "amenities": "기저귀교환대(여)",
+      "type": "공공개방",
+      "phone": "02-2147-3380"
+    }
+  },
+  {
+    "id": "toilet-285330",
+    "kind": "TOILET",
+    "name": "오금공원3(다목적경기장) 화장실",
+    "address": "서울특별시 송파구 동남로 271",
+    "longitude": 127.131682,
+    "latitude": 37.505149,
+    "sourceId": "285330",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-22586/S/1/datasetView.do",
+    "sourceName": "서울시 공중화장실 위치정보",
+    "sourceDate": "자료별 기준일 미제공",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "hours": "상시(24시간)",
+      "accessibility": "",
+      "amenities": "기저귀교환대(남), 기저귀교환대(여)",
+      "type": "공공개방",
+      "phone": "02-2147-3380"
+    }
+  },
+  {
+    "id": "toilet-285338",
+    "kind": "TOILET",
+    "name": "곰말어린이공원 화장실",
+    "address": "서울특별시 송파구 가락로39길 11",
+    "longitude": 127.11770827,
+    "latitude": 37.51190927,
+    "sourceId": "285338",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-22586/S/1/datasetView.do",
+    "sourceName": "서울시 공중화장실 위치정보",
+    "sourceDate": "자료별 기준일 미제공",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "hours": "상시(24시간)",
+      "accessibility": "남자, 여자",
+      "amenities": "기저귀교환대(남), 기저귀교환대(여)",
+      "type": "공공개방",
+      "phone": "02-2147-3380"
+    }
+  },
+  {
+    "id": "toilet-285344",
+    "kind": "TOILET",
+    "name": "송파구청",
+    "address": "서울특별시 송파구 올림픽로 326",
+    "longitude": 127.105912,
+    "latitude": 37.5145634,
+    "sourceId": "285344",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-22586/S/1/datasetView.do",
+    "sourceName": "서울시 공중화장실 위치정보",
+    "sourceDate": "자료별 기준일 미제공",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "hours": "정시(09:00~18:00)",
+      "accessibility": "남자, 여자",
+      "amenities": "기저귀교환대(남), 기저귀교환대(여)",
+      "type": "공공개방",
+      "phone": "02-2147-2130"
+    }
+  },
+  {
+    "id": "toilet-285346",
+    "kind": "TOILET",
+    "name": "방이동고분군 화장실",
+    "address": "서울특별시 송파구 오금로 219",
+    "longitude": 127.11816421,
+    "latitude": 37.50757492,
+    "sourceId": "285346",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-22586/S/1/datasetView.do",
+    "sourceName": "서울시 공중화장실 위치정보",
+    "sourceDate": "자료별 기준일 미제공",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "hours": "상시(24시간)",
+      "accessibility": "공용",
+      "amenities": "",
+      "type": "공공개방",
+      "phone": "02-2147-2001"
+    }
+  },
+  {
+    "id": "toilet-285363",
+    "kind": "TOILET",
+    "name": "5호선 방이역(개찰구 밖)",
+    "address": "서울특별시 송파구 양재대로 1127",
+    "longitude": 127.12585471,
+    "latitude": 37.50855648,
+    "sourceId": "285363",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-22586/S/1/datasetView.do",
+    "sourceName": "서울시 공중화장실 위치정보",
+    "sourceDate": "자료별 기준일 미제공",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "hours": "정시(영업시작~종료)",
+      "accessibility": "남자, 여자",
+      "amenities": "기저귀교환대(장애인_공용)",
+      "type": "공공개방",
+      "phone": "02-6311-5561"
+    }
+  },
+  {
+    "id": "toilet-285364",
+    "kind": "TOILET",
+    "name": "5호선 올림픽공원역(개찰구 안, 밖)",
+    "address": "서울특별시 송파구 양재대로 1233",
+    "longitude": 127.130843,
+    "latitude": 37.516103,
+    "sourceId": "285364",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-22586/S/1/datasetView.do",
+    "sourceName": "서울시 공중화장실 위치정보",
+    "sourceDate": "자료별 기준일 미제공",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "hours": "정시(영업시작~종료)",
+      "accessibility": "남자, 여자",
+      "amenities": "기저귀교환대(장애인_공용)",
+      "type": "공공개방",
+      "phone": "02-6311-5551"
+    }
+  },
+  {
+    "id": "toilet-285365",
+    "kind": "TOILET",
+    "name": "8호선 석촌역(개찰구 밖)",
+    "address": "서울특별시 송파구 송파대로 439",
+    "longitude": 127.1063454,
+    "latitude": 37.50594964,
+    "sourceId": "285365",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-22586/S/1/datasetView.do",
+    "sourceName": "서울시 공중화장실 위치정보",
+    "sourceDate": "자료별 기준일 미제공",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "hours": "정시(영업시작~종료)",
+      "accessibility": "남자, 여자",
+      "amenities": "기저귀교환대(장애인_공용)",
+      "type": "공공개방",
+      "phone": "02-6311-8151"
+    }
+  },
+  {
+    "id": "toilet-285367",
+    "kind": "TOILET",
+    "name": "8호선 몽촌토성역(개찰구 밖)",
+    "address": "서울특별시 송파구 올림픽로 383",
+    "longitude": 127.11242994,
+    "latitude": 37.51762362,
+    "sourceId": "285367",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-22586/S/1/datasetView.do",
+    "sourceName": "서울시 공중화장실 위치정보",
+    "sourceDate": "자료별 기준일 미제공",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "hours": "정시(영업시작~종료)",
+      "accessibility": "남자, 여자",
+      "amenities": "기저귀교환대(장애인_공용)",
+      "type": "공공개방",
+      "phone": "02-6311-8131"
+    }
+  },
+  {
+    "id": "toilet-285382",
+    "kind": "TOILET",
+    "name": "올림픽프라자상가",
+    "address": "서울특별시 송파구 양재대로 1222",
+    "longitude": 127.1323668,
+    "latitude": 37.5154298,
+    "sourceId": "285382",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-22586/S/1/datasetView.do",
+    "sourceName": "서울시 공중화장실 위치정보",
+    "sourceDate": "자료별 기준일 미제공",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "hours": "기타, 09:30~21:00",
+      "accessibility": "남자, 여자",
+      "amenities": "기저귀교환대(여)",
+      "type": "민간개방",
+      "phone": "02-407-1181"
+    }
+  },
+  {
+    "id": "toilet-285398",
+    "kind": "TOILET",
+    "name": "한화 송파지점(한양아파트 상가)",
+    "address": "서울특별시 송파구 가락로 183",
+    "longitude": 127.11452546,
+    "latitude": 37.50516462,
+    "sourceId": "285398",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-22586/S/1/datasetView.do",
+    "sourceName": "서울시 공중화장실 위치정보",
+    "sourceDate": "자료별 기준일 미제공",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "hours": "정시(06:00~23:00)",
+      "accessibility": "",
+      "amenities": "",
+      "type": "민간개방",
+      "phone": "02-416-6006"
+    }
+  },
+  {
+    "id": "toilet-285403",
+    "kind": "TOILET",
+    "name": "DNG HALL(디앤지 홀)(대원빌딩)",
+    "address": "서울특별시 송파구 오금로 195",
+    "longitude": 127.11607983,
+    "latitude": 37.50843286,
+    "sourceId": "285403",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-22586/S/1/datasetView.do",
+    "sourceName": "서울시 공중화장실 위치정보",
+    "sourceDate": "자료별 기준일 미제공",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "hours": "정시( 08:00~21:00)",
+      "accessibility": "",
+      "amenities": "",
+      "type": "민간개방",
+      "phone": "02-3431-1235"
+    }
+  },
+  {
+    "id": "toilet-285405",
+    "kind": "TOILET",
+    "name": "아트홀제이(금복빌딩)",
+    "address": "서울특별시 송파구 위례성대로 18",
+    "longitude": 127.11431951,
+    "latitude": 37.51645447,
+    "sourceId": "285405",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-22586/S/1/datasetView.do",
+    "sourceName": "서울시 공중화장실 위치정보",
+    "sourceDate": "자료별 기준일 미제공",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "hours": "기타, 05:00~22:00",
+      "accessibility": "남자, 여자",
+      "amenities": "기저귀교환대(남), 기저귀교환대(여)",
+      "type": "민간개방",
+      "phone": "02-425-3211"
+    }
+  },
+  {
+    "id": "toilet-285407",
+    "kind": "TOILET",
+    "name": "빠른병원",
+    "address": "서울특별시 송파구 백제고분로 405",
+    "longitude": 127.10968612,
+    "latitude": 37.50746662,
+    "sourceId": "285407",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-22586/S/1/datasetView.do",
+    "sourceName": "서울시 공중화장실 위치정보",
+    "sourceDate": "자료별 기준일 미제공",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "hours": "상시(24시간)",
+      "accessibility": "남자, 여자",
+      "amenities": "",
+      "type": "민간개방",
+      "phone": "02-423-8288"
+    }
+  },
+  {
+    "id": "toilet-285408",
+    "kind": "TOILET",
+    "name": "강남힘찬병원",
+    "address": "서울특별시 송파구 백제고분로 407",
+    "longitude": 127.10988472,
+    "latitude": 37.50759336,
+    "sourceId": "285408",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-22586/S/1/datasetView.do",
+    "sourceName": "서울시 공중화장실 위치정보",
+    "sourceDate": "자료별 기준일 미제공",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "hours": "정시(09:00~18:00)",
+      "accessibility": "남자, 여자",
+      "amenities": "기저귀교환대(여)",
+      "type": "민간개방",
+      "phone": "1899-2225"
+    }
+  },
+  {
+    "id": "toilet-285411",
+    "kind": "TOILET",
+    "name": "우진빌딩",
+    "address": "서울특별시 송파구 가락로 214",
+    "longitude": 127.11663769,
+    "latitude": 37.5072923,
+    "sourceId": "285411",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-22586/S/1/datasetView.do",
+    "sourceName": "서울시 공중화장실 위치정보",
+    "sourceDate": "자료별 기준일 미제공",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "hours": "정시(08:00~24:00)",
+      "accessibility": "",
+      "amenities": "",
+      "type": "민간개방",
+      "phone": "010-5259-4217"
+    }
+  },
+  {
+    "id": "toilet-285412",
+    "kind": "TOILET",
+    "name": "금성빌라상가",
+    "address": "서울특별시 송파구 가락로 249",
+    "longitude": 127.1180191,
+    "latitude": 37.51042746,
+    "sourceId": "285412",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-22586/S/1/datasetView.do",
+    "sourceName": "서울시 공중화장실 위치정보",
+    "sourceDate": "자료별 기준일 미제공",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "hours": "상시(24시간)",
+      "accessibility": "",
+      "amenities": "",
+      "type": "민간개방",
+      "phone": "010-3739-8904"
+    }
+  },
+  {
+    "id": "toilet-285414",
+    "kind": "TOILET",
+    "name": "킹스스크린골프",
+    "address": "서울특별시 송파구 마천로7길 4, 7동 (오금동, 대림아파트)",
+    "longitude": 127.12867568,
+    "latitude": 37.50841098,
+    "sourceId": "285414",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-22586/S/1/datasetView.do",
+    "sourceName": "서울시 공중화장실 위치정보",
+    "sourceDate": "자료별 기준일 미제공",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "hours": "상시(24시간)",
+      "accessibility": "",
+      "amenities": "",
+      "type": "민간개방",
+      "phone": "010-3037-8131"
+    }
+  },
+  {
+    "id": "toilet-285425",
+    "kind": "TOILET",
+    "name": "영빌딩",
+    "address": "서울특별시 송파구 송파대로 422",
+    "longitude": 127.10798568,
+    "latitude": 37.50500292,
+    "sourceId": "285425",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-22586/S/1/datasetView.do",
+    "sourceName": "서울시 공중화장실 위치정보",
+    "sourceDate": "자료별 기준일 미제공",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "hours": "상시(24시간)",
+      "accessibility": "남자, 여자",
+      "amenities": "",
+      "type": "민간개방",
+      "phone": "02-419-9800"
+    }
+  },
+  {
+    "id": "toilet-285426",
+    "kind": "TOILET",
+    "name": "청호빌딩",
+    "address": "서울특별시 송파구 송파대로 441",
+    "longitude": 127.10616793,
+    "latitude": 37.50580631,
+    "sourceId": "285426",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-22586/S/1/datasetView.do",
+    "sourceName": "서울시 공중화장실 위치정보",
+    "sourceDate": "자료별 기준일 미제공",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "hours": "정시(06:00~21:00)",
+      "accessibility": "",
+      "amenities": "",
+      "type": "민간개방",
+      "phone": "010-3743-8665"
+    }
+  },
+  {
+    "id": "toilet-285427",
+    "kind": "TOILET",
+    "name": "석촌레이크빌",
+    "address": "서울특별시 송파구 송파대로 453",
+    "longitude": 127.10530301,
+    "latitude": 37.50676952,
+    "sourceId": "285427",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-22586/S/1/datasetView.do",
+    "sourceName": "서울시 공중화장실 위치정보",
+    "sourceDate": "자료별 기준일 미제공",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "hours": "상시(24시간)",
+      "accessibility": "공용",
+      "amenities": "기저귀교환대(여)",
+      "type": "민간개방",
+      "phone": "010-3773-5675"
+    }
+  },
+  {
+    "id": "toilet-285432",
+    "kind": "TOILET",
+    "name": "동성빌딩",
+    "address": "서울특별시 송파구 오금로11길 14",
+    "longitude": 127.10889301,
+    "latitude": 37.51445721,
+    "sourceId": "285432",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-22586/S/1/datasetView.do",
+    "sourceName": "서울시 공중화장실 위치정보",
+    "sourceDate": "자료별 기준일 미제공",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "hours": "상시(24시간)",
+      "accessibility": "남자, 여자",
+      "amenities": "",
+      "type": "민간개방",
+      "phone": "010-5777-4035"
+    }
+  },
+  {
+    "id": "toilet-285435",
+    "kind": "TOILET",
+    "name": "대우유토피아",
+    "address": "서울특별시 송파구 올림픽로 336",
+    "longitude": 127.10745553,
+    "latitude": 37.51539602,
+    "sourceId": "285435",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-22586/S/1/datasetView.do",
+    "sourceName": "서울시 공중화장실 위치정보",
+    "sourceDate": "자료별 기준일 미제공",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "hours": "상시(24시간)",
+      "accessibility": "공용",
+      "amenities": "",
+      "type": "민간개방",
+      "phone": "010-9195-3130"
+    }
+  },
+  {
+    "id": "toilet-285439",
+    "kind": "TOILET",
+    "name": "벨솔레 오피스텔",
+    "address": "서울특별시 송파구 올림픽로34길 5-13",
+    "longitude": 127.11132,
+    "latitude": 37.5163931,
+    "sourceId": "285439",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-22586/S/1/datasetView.do",
+    "sourceName": "서울시 공중화장실 위치정보",
+    "sourceDate": "자료별 기준일 미제공",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "hours": "정시(09:00~18:00)",
+      "accessibility": "",
+      "amenities": "",
+      "type": "민간개방",
+      "phone": "02-3431-9863"
+    }
+  },
+  {
+    "id": "toilet-285451",
+    "kind": "TOILET",
+    "name": "청원빌딩(온에어코인노래방)",
+    "address": "서울특별시 송파구 백제고분로45길 10",
+    "longitude": 127.11036519,
+    "latitude": 37.50952326,
+    "sourceId": "285451",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-22586/S/1/datasetView.do",
+    "sourceName": "서울시 공중화장실 위치정보",
+    "sourceDate": "자료별 기준일 미제공",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "hours": "상시(24시간)",
+      "accessibility": "",
+      "amenities": "",
+      "type": "민간개방",
+      "phone": "010-2934-7861"
+    }
+  },
+  {
+    "id": "toilet-285454",
+    "kind": "TOILET",
+    "name": "올림픽파크리움",
+    "address": "서울특별시 송파구 백제고분로 505",
+    "longitude": 127.11499856,
+    "latitude": 37.51553087,
+    "sourceId": "285454",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-22586/S/1/datasetView.do",
+    "sourceName": "서울시 공중화장실 위치정보",
+    "sourceDate": "자료별 기준일 미제공",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "hours": "기타, 06:00~22:30",
+      "accessibility": "남자, 여자",
+      "amenities": "",
+      "type": "민간개방",
+      "phone": "02-422-0077"
+    }
+  },
+  {
+    "id": "toilet-285455",
+    "kind": "TOILET",
+    "name": "오금동현대아파트상가",
+    "address": "서울특별시 송파구 오금로35길 17",
+    "longitude": 127.12505398,
+    "latitude": 37.50628811,
+    "sourceId": "285455",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-22586/S/1/datasetView.do",
+    "sourceName": "서울시 공중화장실 위치정보",
+    "sourceDate": "자료별 기준일 미제공",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "hours": "정시(09:00~22:00)",
+      "accessibility": "",
+      "amenities": "",
+      "type": "민간개방",
+      "phone": "010-4176-4411"
+    }
+  },
+  {
+    "id": "toilet-285466",
+    "kind": "TOILET",
+    "name": "오금가스충전소",
+    "address": "서울특별시 송파구 마천로 103",
+    "longitude": 127.13164168,
+    "latitude": 37.50623959,
+    "sourceId": "285466",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-22586/S/1/datasetView.do",
+    "sourceName": "서울시 공중화장실 위치정보",
+    "sourceDate": "자료별 기준일 미제공",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "hours": "상시(24시간)",
+      "accessibility": "",
+      "amenities": "",
+      "type": "민간개방",
+      "phone": "02-402-5151"
+    }
+  },
+  {
+    "id": "toilet-285471",
+    "kind": "TOILET",
+    "name": "현대오일뱅크(남자주유소)",
+    "address": "서울특별시 송파구 백제고분로 474",
+    "longitude": 127.11404236,
+    "latitude": 37.51261475,
+    "sourceId": "285471",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-22586/S/1/datasetView.do",
+    "sourceName": "서울시 공중화장실 위치정보",
+    "sourceDate": "자료별 기준일 미제공",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "hours": "상시(24시간)",
+      "accessibility": "",
+      "amenities": "",
+      "type": "민간개방",
+      "phone": "02-423-5128"
+    }
+  },
+  {
+    "id": "toilet-285479",
+    "kind": "TOILET",
+    "name": "S-OIL잠실에너지",
+    "address": "서울특별시 송파구 송파대로 442",
+    "longitude": 127.1066563,
+    "latitude": 37.50637587,
+    "sourceId": "285479",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-22586/S/1/datasetView.do",
+    "sourceName": "서울시 공중화장실 위치정보",
+    "sourceDate": "자료별 기준일 미제공",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "hours": "상시(24시간)",
+      "accessibility": "",
+      "amenities": "",
+      "type": "민간개방",
+      "phone": "02-414-5010"
+    }
+  },
+  {
+    "id": "toilet-285481",
+    "kind": "TOILET",
+    "name": "백제고분로주유소",
+    "address": "서울특별시 송파구 오금로 143",
+    "longitude": 127.11104952,
+    "latitude": 37.51106699,
+    "sourceId": "285481",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-22586/S/1/datasetView.do",
+    "sourceName": "서울시 공중화장실 위치정보",
+    "sourceDate": "자료별 기준일 미제공",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "hours": "상시(24시간)",
+      "accessibility": "",
+      "amenities": "",
+      "type": "민간개방",
+      "phone": "02-2202-4050"
+    }
+  },
+  {
+    "id": "toilet-285485",
+    "kind": "TOILET",
+    "name": "올림픽주유소(셀프)",
+    "address": "서울특별시 송파구 위례성대로 188",
+    "longitude": 127.13186273,
+    "latitude": 37.50973796,
+    "sourceId": "285485",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-22586/S/1/datasetView.do",
+    "sourceName": "서울시 공중화장실 위치정보",
+    "sourceDate": "자료별 기준일 미제공",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "hours": "상시(24시간)",
+      "accessibility": "",
+      "amenities": "",
+      "type": "민간개방",
+      "phone": "02-448-9804"
+    }
+  },
+  {
+    "id": "toilet-285486",
+    "kind": "TOILET",
+    "name": "SK방이주유소",
+    "address": "서울특별시 송파구 위례성대로12길 38",
+    "longitude": 127.12069164,
+    "latitude": 37.51069729,
+    "sourceId": "285486",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-22586/S/1/datasetView.do",
+    "sourceName": "서울시 공중화장실 위치정보",
+    "sourceDate": "자료별 기준일 미제공",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "hours": "상시(24시간)",
+      "accessibility": "",
+      "amenities": "",
+      "type": "민간개방",
+      "phone": "02-424-3051"
+    }
+  },
+  {
+    "id": "toilet-285493",
+    "kind": "TOILET",
+    "name": "방이119안전센터",
+    "address": "서울특별시 송파구 강동대로 286",
+    "longitude": 127.13657194,
+    "latitude": 37.51978459,
+    "sourceId": "285493",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-22586/S/1/datasetView.do",
+    "sourceName": "서울시 공중화장실 위치정보",
+    "sourceDate": "자료별 기준일 미제공",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "hours": "상시(24시간)",
+      "accessibility": "",
+      "amenities": "",
+      "type": "공공개방",
+      "phone": "02-6981-5221"
+    }
+  },
+  {
+    "id": "toilet-285494",
+    "kind": "TOILET",
+    "name": "송파세무서",
+    "address": "서울특별시 송파구 강동대로 62",
+    "longitude": 127.11334,
+    "latitude": 37.526613,
+    "sourceId": "285494",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-22586/S/1/datasetView.do",
+    "sourceName": "서울시 공중화장실 위치정보",
+    "sourceDate": "자료별 기준일 미제공",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "hours": "정시(09:00~18:00)",
+      "accessibility": "",
+      "amenities": "",
+      "type": "공공개방",
+      "phone": "02-2224-9245"
+    }
+  },
+  {
+    "id": "toilet-285495",
+    "kind": "TOILET",
+    "name": "잠실세무서",
+    "address": "서울특별시 송파구 강동대로 62",
+    "longitude": 127.1140853,
+    "latitude": 37.526331,
+    "sourceId": "285495",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-22586/S/1/datasetView.do",
+    "sourceName": "서울시 공중화장실 위치정보",
+    "sourceDate": "자료별 기준일 미제공",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "hours": "정시(09:00~18:00)",
+      "accessibility": "남자, 여자",
+      "amenities": "",
+      "type": "공공개방",
+      "phone": "02-2055-9246"
+    }
+  },
+  {
+    "id": "toilet-285509",
+    "kind": "TOILET",
+    "name": "송파구보건소",
+    "address": "서울특별시 송파구 올림픽로 326",
+    "longitude": 127.1066105,
+    "latitude": 37.51457634,
+    "sourceId": "285509",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-22586/S/1/datasetView.do",
+    "sourceName": "서울시 공중화장실 위치정보",
+    "sourceDate": "자료별 기준일 미제공",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "hours": "정시(09:00~18:00)",
+      "accessibility": "",
+      "amenities": "",
+      "type": "공공개방",
+      "phone": "02-2147-3429"
+    }
+  },
+  {
+    "id": "toilet-285527",
+    "kind": "TOILET",
+    "name": "방이1동주민센터 화장실",
+    "address": "서울특별시 송파구 위례성대로16길 22",
+    "longitude": 127.12390575,
+    "latitude": 37.51097684,
+    "sourceId": "285527",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-22586/S/1/datasetView.do",
+    "sourceName": "서울시 공중화장실 위치정보",
+    "sourceDate": "자료별 기준일 미제공",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "hours": "정시(09:00~18:00,평일)",
+      "accessibility": "남자, 여자",
+      "amenities": "",
+      "type": "공공개방",
+      "phone": "02-2147-4190"
+    }
+  },
+  {
+    "id": "toilet-285528",
+    "kind": "TOILET",
+    "name": "방이2동주민센터 화장실",
+    "address": "서울특별시 송파구 올림픽로34길 5-13",
+    "longitude": 127.111322,
+    "latitude": 37.5163841,
+    "sourceId": "285528",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-22586/S/1/datasetView.do",
+    "sourceName": "서울시 공중화장실 위치정보",
+    "sourceDate": "자료별 기준일 미제공",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "hours": "정시(09:00~18:00,평일)",
+      "accessibility": "",
+      "amenities": "",
+      "type": "민간개방",
+      "phone": "02-2147-4216"
+    }
+  },
+  {
+    "id": "toilet-285529",
+    "kind": "TOILET",
+    "name": "오륜동주민센터 화장실",
+    "address": "서울특별시 송파구 양재대로 1232",
+    "longitude": 127.13427401,
+    "latitude": 37.51555729,
+    "sourceId": "285529",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-22586/S/1/datasetView.do",
+    "sourceName": "서울시 공중화장실 위치정보",
+    "sourceDate": "자료별 기준일 미제공",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "hours": "정시(09:00~18:00,평일)",
+      "accessibility": "남자, 여자",
+      "amenities": "",
+      "type": "공공개방",
+      "phone": "02-2147-4247"
+    }
+  },
+  {
+    "id": "toilet-285531",
+    "kind": "TOILET",
+    "name": "송파1동주민센터 화장실",
+    "address": "서울특별시 송파구 백제고분로 392",
+    "longitude": 127.10931236,
+    "latitude": 37.50626354,
+    "sourceId": "285531",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-22586/S/1/datasetView.do",
+    "sourceName": "서울시 공중화장실 위치정보",
+    "sourceDate": "자료별 기준일 미제공",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "hours": "정시(09:00~18:00,평일)",
+      "accessibility": "남자, 여자",
+      "amenities": "기저귀교환대(여)",
+      "type": "공공개방",
+      "phone": "02-2147-4307"
+    }
+  },
+  {
+    "id": "toilet-285545",
+    "kind": "TOILET",
+    "name": "잠실4동주민센터 화장실",
+    "address": "서울특별시 송파구 올림픽로35길 16",
+    "longitude": 127.11223312,
+    "latitude": 37.52016253,
+    "sourceId": "285545",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-22586/S/1/datasetView.do",
+    "sourceName": "서울시 공중화장실 위치정보",
+    "sourceDate": "자료별 기준일 미제공",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "hours": "정시(09:00~18:00,평일)",
+      "accessibility": "남자, 여자",
+      "amenities": "기저귀교환대(남), 기저귀교환대(여)",
+      "type": "공공개방",
+      "phone": "02-2147-4690"
+    }
+  },
+  {
+    "id": "toilet-285550",
+    "kind": "TOILET",
+    "name": "송파동 공영주차장",
+    "address": "서울특별시 송파구 백제고분로44길 13-25",
+    "longitude": 127.11334133,
+    "latitude": 37.50702451,
+    "sourceId": "285550",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-22586/S/1/datasetView.do",
+    "sourceName": "서울시 공중화장실 위치정보",
+    "sourceDate": "자료별 기준일 미제공",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "hours": "상시(24시간)",
+      "accessibility": "",
+      "amenities": "",
+      "type": "공공개방",
+      "phone": "02-2147-1093"
+    }
+  },
+  {
+    "id": "toilet-285560",
+    "kind": "TOILET",
+    "name": "올림픽공원-평화의광장A-2동(옥외화장실)",
+    "address": "서울특별시 송파구 올림픽로 424",
+    "longitude": 127.116415,
+    "latitude": 37.518082,
+    "sourceId": "285560",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-22586/S/1/datasetView.do",
+    "sourceName": "서울시 공중화장실 위치정보",
+    "sourceDate": "자료별 기준일 미제공",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "hours": "기타, 올림픽공원 개방 시간 내",
+      "accessibility": "남자, 여자",
+      "amenities": "",
+      "type": "공공개방",
+      "phone": "02-2180-3603"
+    }
+  },
+  {
+    "id": "toilet-285561",
+    "kind": "TOILET",
+    "name": "올림픽공원-피크닉장(옥외화장실)",
+    "address": "서울특별시 송파구 올림픽로 424",
+    "longitude": 127.123239,
+    "latitude": 37.524401,
+    "sourceId": "285561",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-22586/S/1/datasetView.do",
+    "sourceName": "서울시 공중화장실 위치정보",
+    "sourceDate": "자료별 기준일 미제공",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "hours": "기타, 올림픽공원 개방 시간 내",
+      "accessibility": "",
+      "amenities": "기저귀교환대(여)",
+      "type": "공공개방",
+      "phone": "02-2180-3603"
+    }
+  },
+  {
+    "id": "toilet-285563",
+    "kind": "TOILET",
+    "name": "올림픽공원-소마미술관",
+    "address": "서울특별시 송파구 위례성대로 51",
+    "longitude": 127.11815581,
+    "latitude": 37.51691089,
+    "sourceId": "285563",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-22586/S/1/datasetView.do",
+    "sourceName": "서울시 공중화장실 위치정보",
+    "sourceDate": "자료별 기준일 미제공",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "hours": "기타, 올림픽공원 개방 시간 내",
+      "accessibility": "남자, 여자",
+      "amenities": "",
+      "type": "공공개방",
+      "phone": "02-2180-3603"
+    }
+  },
+  {
+    "id": "toilet-285564",
+    "kind": "TOILET",
+    "name": "올림픽공원-한성백제박물관",
+    "address": "서울특별시 송파구 위례성대로 71",
+    "longitude": 127.12080067,
+    "latitude": 37.51542873,
+    "sourceId": "285564",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-22586/S/1/datasetView.do",
+    "sourceName": "서울시 공중화장실 위치정보",
+    "sourceDate": "자료별 기준일 미제공",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "hours": "정시(09:00~19:00)",
+      "accessibility": "남자, 여자",
+      "amenities": "기저귀교환대(남), 기저귀교환대(여)",
+      "type": "공공개방",
+      "phone": "2152-5850"
+    }
+  },
+  {
+    "id": "toilet-285694",
+    "kind": "TOILET",
+    "name": "송파나루 더갤러리호수 화장실",
+    "address": "서울특별시 송파구 송파나루길 206",
+    "longitude": 127.1075306,
+    "latitude": 37.512404,
+    "sourceId": "285694",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-22586/S/1/datasetView.do",
+    "sourceName": "서울시 공중화장실 위치정보",
+    "sourceDate": "자료별 기준일 미제공",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "hours": "상시(24시간)",
+      "accessibility": "남자, 여자",
+      "amenities": "기저귀교환대(여)",
+      "type": "공공개방",
+      "phone": "02-2147-3380"
+    }
+  },
+  {
+    "id": "toilet-285695",
+    "kind": "TOILET",
+    "name": "송파근린공원 화장실",
+    "address": "서울특별시 송파구 송파대로42길 29",
+    "longitude": 127.1104869,
+    "latitude": 37.50633494,
+    "sourceId": "285695",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-22586/S/1/datasetView.do",
+    "sourceName": "서울시 공중화장실 위치정보",
+    "sourceDate": "자료별 기준일 미제공",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "hours": "상시(24시간)",
+      "accessibility": "남자, 여자",
+      "amenities": "",
+      "type": "공공개방",
+      "phone": "02-2147-3380"
+    }
+  },
+  {
+    "id": "toilet-285697",
+    "kind": "TOILET",
+    "name": "올림픽공원-88호수(옥외화장실)",
+    "address": "서울특별시 송파구 올림픽로 424",
+    "longitude": 127.125745,
+    "latitude": 37.520214,
+    "sourceId": "285697",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-22586/S/1/datasetView.do",
+    "sourceName": "서울시 공중화장실 위치정보",
+    "sourceDate": "자료별 기준일 미제공",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "hours": "기타, 올림픽공원 개방 시간 내",
+      "accessibility": "남자, 여자",
+      "amenities": "기저귀교환대(여)",
+      "type": "공공개방",
+      "phone": "02-2180-3603"
+    }
+  },
+  {
+    "id": "toilet-285698",
+    "kind": "TOILET",
+    "name": "올림픽공원-P1(옥외화장실)",
+    "address": "서울특별시 송파구 올림픽로 424",
+    "longitude": 127.1254037,
+    "latitude": 37.51443,
+    "sourceId": "285698",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-22586/S/1/datasetView.do",
+    "sourceName": "서울시 공중화장실 위치정보",
+    "sourceDate": "자료별 기준일 미제공",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "hours": "기타, 올림픽공원 개방 시간 내",
+      "accessibility": "남자, 여자",
+      "amenities": "기저귀교환대(여)",
+      "type": "공공개방",
+      "phone": "02-2180-3603"
+    }
+  },
+  {
+    "id": "toilet-285699",
+    "kind": "TOILET",
+    "name": "올림픽공원-남2문(옥외화장실)",
+    "address": "서울특별시 송파구 올림픽로 424",
+    "longitude": 127.122219,
+    "latitude": 37.5149858,
+    "sourceId": "285699",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-22586/S/1/datasetView.do",
+    "sourceName": "서울시 공중화장실 위치정보",
+    "sourceDate": "자료별 기준일 미제공",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "hours": "기타, 올림픽공원 개방 시간 내",
+      "accessibility": "남자, 여자",
+      "amenities": "",
+      "type": "공공개방",
+      "phone": "02-2180-3603"
+    }
+  },
+  {
+    "id": "toilet-285700",
+    "kind": "TOILET",
+    "name": "올림픽공원-만남의광장A-2동(옥외화장실)",
+    "address": "서울특별시 송파구 올림픽로 424",
+    "longitude": 127.122217,
+    "latitude": 37.514997,
+    "sourceId": "285700",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-22586/S/1/datasetView.do",
+    "sourceName": "서울시 공중화장실 위치정보",
+    "sourceDate": "자료별 기준일 미제공",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "hours": "기타, 올림픽공원 개방 시간 내",
+      "accessibility": "남자, 여자",
+      "amenities": "기저귀교환대(여)",
+      "type": "공공개방",
+      "phone": "02-2180-3603"
+    }
+  },
+  {
+    "id": "toilet-285701",
+    "kind": "TOILET",
+    "name": "올림픽공원-서울백제어린이박물관",
+    "address": "서울특별시 송파구 올림픽로 424",
+    "longitude": 127.124308,
+    "latitude": 37.52389,
+    "sourceId": "285701",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-22586/S/1/datasetView.do",
+    "sourceName": "서울시 공중화장실 위치정보",
+    "sourceDate": "자료별 기준일 미제공",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "hours": "정시(09:00~19:00)",
+      "accessibility": "남자, 여자",
+      "amenities": "기저귀교환대(남), 기저귀교환대(여)",
+      "type": "공공개방",
+      "phone": "02-2152-5850"
+    }
+  },
+  {
+    "id": "toilet-285702",
+    "kind": "TOILET",
+    "name": "올림픽공원-북2문(옥외화장실)",
+    "address": "서울특별시 송파구 올림픽로 424",
+    "longitude": 127.1269489,
+    "latitude": 37.5226844,
+    "sourceId": "285702",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-22586/S/1/datasetView.do",
+    "sourceName": "서울시 공중화장실 위치정보",
+    "sourceDate": "자료별 기준일 미제공",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "hours": "기타, 올림픽공원 개방 시간 내",
+      "accessibility": "공용",
+      "amenities": "기저귀교환대(여)",
+      "type": "공공개방",
+      "phone": "02-2180-3603"
+    }
+  },
+  {
+    "id": "toilet-285703",
+    "kind": "TOILET",
+    "name": "올림픽공원-장미(옥외화장실)",
+    "address": "서울특별시 송파구 올림픽로 424",
+    "longitude": 127.127545,
+    "latitude": 37.514013,
+    "sourceId": "285703",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-22586/S/1/datasetView.do",
+    "sourceName": "서울시 공중화장실 위치정보",
+    "sourceDate": "자료별 기준일 미제공",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "hours": "기타, 올림픽공원 개방 시간 내",
+      "accessibility": "공용",
+      "amenities": "기저귀교환대(여)",
+      "type": "공공개방",
+      "phone": "02-2180-3603"
+    }
+  },
+  {
+    "id": "toilet-285704",
+    "kind": "TOILET",
+    "name": "올림픽공원-장자목(옥외화장실)",
+    "address": "서울특별시 송파구 올림픽로 424",
+    "longitude": 127.123072,
+    "latitude": 37.518278,
+    "sourceId": "285704",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-22586/S/1/datasetView.do",
+    "sourceName": "서울시 공중화장실 위치정보",
+    "sourceDate": "자료별 기준일 미제공",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "hours": "기타, 올림픽공원 개방 시간 내",
+      "accessibility": "공용",
+      "amenities": "",
+      "type": "공공개방",
+      "phone": "02-2180-3603"
+    }
+  },
+  {
+    "id": "toilet-285705",
+    "kind": "TOILET",
+    "name": "올림픽공원-지구촌(옥외화장실)",
+    "address": "서울특별시 송파구 올림픽로 424",
+    "longitude": 127.121409,
+    "latitude": 37.516892,
+    "sourceId": "285705",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-22586/S/1/datasetView.do",
+    "sourceName": "서울시 공중화장실 위치정보",
+    "sourceDate": "자료별 기준일 미제공",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "hours": "기타, 올림픽공원 개방 시간 내",
+      "accessibility": "공용",
+      "amenities": "기저귀교환대(여)",
+      "type": "공공개방",
+      "phone": "02-2180-3603"
+    }
+  },
+  {
+    "id": "toilet-285706",
+    "kind": "TOILET",
+    "name": "올림픽공원-토성(옥외화장실)",
+    "address": "서울특별시 송파구 올림픽로 424",
+    "longitude": 127.120994,
+    "latitude": 37.521084,
+    "sourceId": "285706",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-22586/S/1/datasetView.do",
+    "sourceName": "서울시 공중화장실 위치정보",
+    "sourceDate": "자료별 기준일 미제공",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "hours": "기타, 올림픽공원 개방 시간 내",
+      "accessibility": "공용",
+      "amenities": "기저귀교환대(여)",
+      "type": "공공개방",
+      "phone": "02-2180-3603"
+    }
+  },
+  {
+    "id": "toilet-285707",
+    "kind": "TOILET",
+    "name": "올림픽공원-평화의광장A-1동(옥외화장실)",
+    "address": "서울특별시 송파구 올림픽로 424",
+    "longitude": 127.1160339,
+    "latitude": 37.5190645,
+    "sourceId": "285707",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-22586/S/1/datasetView.do",
+    "sourceName": "서울시 공중화장실 위치정보",
+    "sourceDate": "자료별 기준일 미제공",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "hours": "기타, 올림픽공원 개방 시간 내",
+      "accessibility": "남자, 여자",
+      "amenities": "",
+      "type": "공공개방",
+      "phone": "02-2180-3603"
+    }
+  },
+  {
+    "id": "toilet-287108",
+    "kind": "TOILET",
+    "name": "잠실르엘",
+    "address": "서울특별시 송파구 올림픽로 329",
+    "longitude": 127.10676166,
+    "latitude": 37.5159195,
+    "sourceId": "287108",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-22586/S/1/datasetView.do",
+    "sourceName": "서울시 공중화장실 위치정보",
+    "sourceDate": "자료별 기준일 미제공",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "hours": "정시(09:00~18:00)",
+      "accessibility": "남자, 여자",
+      "amenities": "",
+      "type": "민간개방",
+      "phone": ""
+    }
+  },
+  {
+    "id": "toilet-287109",
+    "kind": "TOILET",
+    "name": "잠실르엘",
+    "address": "서울특별시 송파구 올림픽로 329",
+    "longitude": 127.10676166,
+    "latitude": 37.5159195,
+    "sourceId": "287109",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-22586/S/1/datasetView.do",
+    "sourceName": "서울시 공중화장실 위치정보",
+    "sourceDate": "자료별 기준일 미제공",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "hours": "",
+      "accessibility": "",
+      "amenities": "",
+      "type": "",
+      "phone": ""
+    }
+  },
+  {
+    "id": "toilet-287110",
+    "kind": "TOILET",
+    "name": "잠실르엘",
+    "address": "서울특별시 송파구 올림픽로 329",
+    "longitude": 127.10676166,
+    "latitude": 37.5159195,
+    "sourceId": "287110",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-22586/S/1/datasetView.do",
+    "sourceName": "서울시 공중화장실 위치정보",
+    "sourceDate": "자료별 기준일 미제공",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "hours": "",
+      "accessibility": "",
+      "amenities": "",
+      "type": "",
+      "phone": ""
+    }
+  },
+  {
+    "id": "toilet-287116",
+    "kind": "TOILET",
+    "name": "송파여성문화회관 화장실",
+    "address": "서울특별시 송파구 백제고분로42길 5",
+    "longitude": 127.10973153,
+    "latitude": 37.50592939,
+    "sourceId": "287116",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-22586/S/1/datasetView.do",
+    "sourceName": "서울시 공중화장실 위치정보",
+    "sourceDate": "자료별 기준일 미제공",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "hours": "정시(07:00~22:00)",
+      "accessibility": "남자",
+      "amenities": "기저귀교환대(장애인_공용)",
+      "type": "공공개방",
+      "phone": "02-2147-2768"
+    }
+  },
+  {
+    "id": "toilet-287117",
+    "kind": "TOILET",
+    "name": "송파구여성축구장 화장실",
+    "address": "",
+    "longitude": 127.11820305,
+    "latitude": 37.52443718,
+    "sourceId": "287117",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-22586/S/1/datasetView.do",
+    "sourceName": "서울시 공중화장실 위치정보",
+    "sourceDate": "자료별 기준일 미제공",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "hours": "정시(08:00~22:00)",
+      "accessibility": "남자, 여자",
+      "amenities": "",
+      "type": "공공개방",
+      "phone": "02-2147-5134"
+    }
+  },
+  {
+    "id": "toilet-287126",
+    "kind": "TOILET",
+    "name": "몽촌빗물펌프장",
+    "address": "",
+    "longitude": 127.10962656,
+    "latitude": 37.52365648,
+    "sourceId": "287126",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-22586/S/1/datasetView.do",
+    "sourceName": "서울시 공중화장실 위치정보",
+    "sourceDate": "자료별 기준일 미제공",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "hours": "상시(24시간)",
+      "accessibility": "남자, 여자",
+      "amenities": "기저귀교환대(여)",
+      "type": "공공개방",
+      "phone": "02-2157-1022"
+    }
+  },
+  {
+    "id": "toilet-287127",
+    "kind": "TOILET",
+    "name": "방이습지",
+    "address": "",
+    "longitude": 127.13664989,
+    "latitude": 37.51176452,
+    "sourceId": "287127",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-22586/S/1/datasetView.do",
+    "sourceName": "서울시 공중화장실 위치정보",
+    "sourceDate": "자료별 기준일 미제공",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "hours": "상시(24시간)",
+      "accessibility": "남자, 여자",
+      "amenities": "기저귀교환대(여)",
+      "type": "공공개방",
+      "phone": "02-2157-1022"
+    }
+  },
+  {
+    "id": "toilet-287228",
+    "kind": "TOILET",
+    "name": "방잇골어린이공원 화장실",
+    "address": "서울특별시 송파구 올림픽로32길 33",
+    "longitude": 127.11031626,
+    "latitude": 37.51341123,
+    "sourceId": "287228",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-22586/S/1/datasetView.do",
+    "sourceName": "서울시 공중화장실 위치정보",
+    "sourceDate": "자료별 기준일 미제공",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "hours": "상시(24시간)",
+      "accessibility": "남자, 여자",
+      "amenities": "기저귀교환대(남), 기저귀교환대(여)",
+      "type": "공공개방",
+      "phone": "02-2147-3380"
+    }
+  },
+  {
+    "id": "toilet-287417",
+    "kind": "TOILET",
+    "name": "한전강동송파지사 화장실",
+    "address": "서울특별시 강동구 양재대로 1318",
+    "longitude": 127.13544501,
+    "latitude": 37.52386993,
+    "sourceId": "287417",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-22586/S/1/datasetView.do",
+    "sourceName": "서울시 공중화장실 위치정보",
+    "sourceDate": "자료별 기준일 미제공",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "hours": "정시(09:00~18:00)",
+      "accessibility": "",
+      "amenities": "",
+      "type": "공공개방",
+      "phone": "02-480-2296"
+    }
+  },
+  {
+    "id": "toilet-287531",
+    "kind": "TOILET",
+    "name": "성내유수지체육시설공원",
+    "address": "",
+    "longitude": 127.1200717,
+    "latitude": 37.52643406,
+    "sourceId": "287531",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-22586/S/1/datasetView.do",
+    "sourceName": "서울시 공중화장실 위치정보",
+    "sourceDate": "자료별 기준일 미제공",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "hours": "상시(24시간)",
+      "accessibility": "공용",
+      "amenities": "기저귀교환대(여)",
+      "type": "공공개방",
+      "phone": "02-3425-5864"
+    }
+  },
+  {
+    "id": "toilet-287580",
+    "kind": "TOILET",
+    "name": "둔촌1동주민센터",
+    "address": "서울특별시 강동구 양재대로84길 31",
+    "longitude": 127.13669192,
+    "latitude": 37.52348245,
+    "sourceId": "287580",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-22586/S/1/datasetView.do",
+    "sourceName": "서울시 공중화장실 위치정보",
+    "sourceDate": "자료별 기준일 미제공",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "hours": "정시(09:00~18:00)",
+      "accessibility": "남자, 여자",
+      "amenities": "",
+      "type": "공공개방",
+      "phone": "02-3425-7880"
+    }
+  },
+  {
+    "id": "toilet-287582",
+    "kind": "TOILET",
+    "name": "성내3동주민센터",
+    "address": "서울특별시 강동구 강동대로53길 76",
+    "longitude": 127.13288388,
+    "latitude": 37.5260422,
+    "sourceId": "287582",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-22586/S/1/datasetView.do",
+    "sourceName": "서울시 공중화장실 위치정보",
+    "sourceDate": "자료별 기준일 미제공",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "hours": "정시(09:00~18:00)",
+      "accessibility": "공용",
+      "amenities": "",
+      "type": "공공개방",
+      "phone": "02-3425-7820"
+    }
+  },
+  {
+    "id": "toilet-288046",
+    "kind": "TOILET",
+    "name": "신월GS주유소",
+    "address": "서울특별시 강동구 양재대로 1323",
+    "longitude": 127.13442142,
+    "latitude": 37.52453517,
+    "sourceId": "288046",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-22586/S/1/datasetView.do",
+    "sourceName": "서울시 공중화장실 위치정보",
+    "sourceDate": "자료별 기준일 미제공",
+    "collectedAt": "2026-10-11T10:54:31.236107+00:00",
+    "details": {
+      "hours": "기타",
+      "accessibility": "",
+      "amenities": "",
+      "type": "민간개방",
+      "phone": "02-6956-6674"
+    }
+  }
+]

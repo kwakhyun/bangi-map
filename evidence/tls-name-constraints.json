@@ -1,0 +1,5 @@
+{
+  "server.crt": "server.crt: OK",
+  "other-domain.crt": "CN = Bangi Localhost CA\nerror 47 at 1 depth lookup:permitted subtree violation\nother-domain.crt: verification failed: 47 (permitted subtree violation)",
+  "other-ip.crt": "CN = Bangi Localhost CA\nerror 48 at 1 depth lookup:excluded subtree violation\nother-ip.crt: verification failed: 48 (excluded subtree violation)"
+}

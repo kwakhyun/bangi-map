@@ -1,0 +1,18 @@
+{
+  "district": "서울특별시 송파구 방이2동",
+  "sourceRelease": "Overture 2026-09-23.1",
+  "sourceSha256": "da07e453a92f4cf29264c3e288c29b6c31a4d86d690ca46a25cce3988ea6f4d4",
+  "selectedBuildings": 1484,
+  "matchedOriginalRecords": 1484,
+  "nonNullAppearanceAttributes": {
+    "facade_color": 0,
+    "facade_material": 0,
+    "roof_material": 0,
+    "roof_shape": 0,
+    "roof_direction": 0,
+    "roof_orientation": 0,
+    "roof_color": 0,
+    "roof_height": 0
+  },
+  "conclusion": "현재 확보한 원본에는 외벽 및 지붕 속성이 없으며 사진 텍스처도 없다. 외관 재현에는 별도 공급원이 필요하다."
+}

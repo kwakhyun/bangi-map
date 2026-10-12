@@ -1,0 +1,15 @@
+{
+  "testedAt": "2026-10-11T13:15:59.354Z",
+  "match": true,
+  "summary": {
+    "places": 165,
+    "reports": 5,
+    "users": 1,
+    "geometry": "76bbd8df94ef6d151b53e1cb0ceb763a",
+    "facilityMetadata": "84dd5b74cd5dd8673e024f629e7f7eca",
+    "reportPayloads": "5fd7dcfae944eb33b3e63afc5e986a3f"
+  },
+  "backupSha256": "2f2fedd2362a8159473515e05ac35f656c91713ef5500a5892e33a59e58ee97b",
+  "backupLocation": ".runtime/backups/ncp-1791724547294.dump",
+  "scope": "One manual backup to this computer; no recurring or cloud backup configured."
+}

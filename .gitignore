@@ -1,0 +1,31 @@
+node_modules/
+dist/
+target/
+.env
+.env.*
+!.env.example
+.runtime/
+.tools/
+*.log
+test-results/
+playwright-report/
+.DS_Store
+apps/web/public/cesium/
+*.tsbuildinfo
+*.srl
+__pycache__/
+
+# Private credentials and database backups must never be published.
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.dump
+
+# Local account/console evidence and downloaded third-party originals.
+evidence/seoul-api-application.png
+evidence/realistic3d/vworld-key-application.png
+evidence/bangi2/ncp-ssh-rule.png
+evidence/bangi-https-secure.png
+evidence/realistic3d/smap-data-faq-202604.pdf

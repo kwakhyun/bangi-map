@@ -1,0 +1,53 @@
+TAP version 13
+# Subtest: Bangi public data, report privacy, idempotency, admin workflow
+    # Subtest: real coordinates, provenance and spatial filtering
+    ok 1 - real coordinates, provenance and spatial filtering
+      ---
+      duration_ms: 433.095125
+      type: 'test'
+      ...
+    # Subtest: parking sources and availability semantics
+    ok 2 - parking sources and availability semantics
+      ---
+      duration_ms: 57.166167
+      type: 'test'
+      ...
+    # Subtest: operator APIs require login
+    ok 3 - operator APIs require login
+      ---
+      duration_ms: 14.716334
+      type: 'test'
+      ...
+    # Subtest: public submission is origin checked and privately retrievable
+    ok 4 - public submission is origin checked and privately retrievable
+      ---
+      duration_ms: 1191.689875
+      type: 'test'
+      ...
+    # Subtest: retries do not duplicate and conflicting requests are rejected
+    ok 5 - retries do not duplicate and conflicting requests are rejected
+      ---
+      duration_ms: 155.602667
+      type: 'test'
+      ...
+    # Subtest: operator login, CSRF, optimistic locking and visible receipt response
+    ok 6 - operator login, CSRF, optimistic locking and visible receipt response
+      ---
+      duration_ms: 1075.057042
+      type: 'test'
+      ...
+    1..6
+ok 1 - Bangi public data, report privacy, idempotency, admin workflow
+  ---
+  duration_ms: 2931.055875
+  type: 'test'
+  ...
+1..1
+# tests 7
+# suites 0
+# pass 7
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 2994.356084

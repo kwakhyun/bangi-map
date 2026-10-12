@@ -1,0 +1,171 @@
+{
+  "verifiedAt": "2026-10-12T18:24:20.527Z",
+  "release": "0.6.2",
+  "environment": "existing NCP Micro staging over SSH tunnel",
+  "staticCheck": {
+    "verifiedAt": "2026-10-12T18:20:24.592Z",
+    "webVersion": "0.6.2",
+    "apiVersion": "0.6.2",
+    "tls": {
+      "authorized": true,
+      "issuer": "Bangi Localhost CA"
+    },
+    "provider": {
+      "enabled": true,
+      "expiresAt": "2027-04-11"
+    },
+    "strictParentCsp": true,
+    "scopedSdkCsp": true,
+    "runtimeAssetsMatch": true,
+    "sceneSha256": "6273a63b84361310f7e3b86d6aac126b6b5c75c8074c991f5cc19d18c3b323b8",
+    "facilityCount": 30,
+    "coverageAuditPublished": true,
+    "coverageMissingCount": null,
+    "bike": "READY",
+    "parking": "READY",
+    "unauthorizedAdminRejected": true,
+    "runtime": "/fieldtwin-small-web-1 a7caeaa1e464ab458dbdf20b492d7db601f0d93e56d6fa121f339c97e3e548f2 fieldtwin-web:0.6.2 true false\n/fieldtwin-small-fieldtwin-api-1 b1cd79323159410386ab840bef68e48fbacf2f8a904b765a91994006a5da3f37 fieldtwin-api:0.6.2 true false\n/fieldtwin-small-db-1 5230f23b54027fe287292bf6fc1fa505f25bf9415bf54572ff81174150d0143d fieldtwin-postgres:0.2.0 true false\nfieldtwin-small-web-1 11.34MiB / 64MiB\nfieldtwin-small-fieldtwin-api-1 184.8MiB / 320MiB\nfieldtwin-small-db-1 73.75MiB / 256MiB\n               total        used        free      shared  buff/cache   available\nMem:             961         671          71          36         407         289\nSwap:            511         158         353\nFilesystem      Size  Used Avail Use% Mounted on\n/dev/vda2       9.8G  7.6G  1.7G  82% /\n"
+  },
+  "dataPreservation": {
+    "users": 1,
+    "reports": 6,
+    "places": 165,
+    "buildings": 1484,
+    "districts": 1,
+    "migrations": [
+      {
+        "version": "1",
+        "checksum": -1530996225,
+        "success": true
+      },
+      {
+        "version": "2",
+        "checksum": 125224832,
+        "success": true
+      },
+      {
+        "version": "3",
+        "checksum": -1820299586,
+        "success": true
+      },
+      {
+        "version": "4",
+        "checksum": -1056399872,
+        "success": true
+      },
+      {
+        "version": "5",
+        "checksum": -1212813513,
+        "success": true
+      },
+      {
+        "version": "6",
+        "checksum": 1104888058,
+        "success": true
+      },
+      {
+        "version": "7",
+        "checksum": 1171135359,
+        "success": true
+      },
+      {
+        "version": "8",
+        "checksum": -1633684185,
+        "success": true
+      }
+    ],
+    "buildingData": "33558ebaea8ccdd68529642dd1a8d287",
+    "districtData": "6d7396f018bf03bc83821648078a60ce",
+    "facilityMetadata": "84dd5b74cd5dd8673e024f629e7f7eca",
+    "databaseContainerUnchanged": true,
+    "allBaselineFieldsMatched": true
+  },
+  "apiRegression": {
+    "tests": 8,
+    "pass": 8,
+    "fail": 0,
+    "evidence": "refactor-api-tests-staging.tap",
+    "syntheticReport": {
+      "reports": 7,
+      "testReportsToday": [
+        {
+          "status": "RESOLVED",
+          "version": 3
+        }
+      ]
+    }
+  },
+  "preDeployment": {
+    "webBuild": "PASS",
+    "javaUnit": {
+      "pass": 22,
+      "skippedIntegration": 3
+    },
+    "priorIntegrationEvidence": "refactor-verification.json",
+    "vworldTests": {
+      "pass": 3
+    }
+  },
+  "browser": {
+    "method": "Chrome via CUA",
+    "desktop": [
+      "photoreal walls and roofs",
+      "basic GIS renderer",
+      "building search and detail",
+      "building nearby places",
+      "nearby scope 165 places",
+      "parking 33 total and 3 live",
+      "parking availability timestamp/detail",
+      "data-source dialog and audit metadata"
+    ],
+    "mobile": {
+      "viewport": "390x844",
+      "facilityDetail": "PASS"
+    },
+    "screenshots": [
+      "refactor-staging-photoreal.png",
+      "refactor-staging-building.png",
+      "refactor-staging-mobile.png"
+    ]
+  },
+  "sync": {
+    "bike": {
+      "id": "seoul-bike",
+      "status": "READY",
+      "lastAttemptAt": "2026-10-12T18:24:08.777354Z",
+      "lastSuccessAt": "2026-10-12T18:24:09.268079Z",
+      "message": "57개 대여소의 최근 수집값입니다. 실제 현장과 차이가 날 수 있습니다.",
+      "configured": true
+    },
+    "parking": {
+      "id": "seoul-parking",
+      "status": "READY",
+      "lastAttemptAt": "2026-10-12T18:20:22.301109Z",
+      "lastSuccessAt": "2026-10-12T18:20:22.432113Z",
+      "message": "3개 주차장의 연동 상태를 확인했습니다. 제공 시각과 현장 상황을 함께 확인해 주세요.",
+      "configured": true,
+      "linkedCount": 3
+    }
+  },
+  "runtimeAfterTests": "/fieldtwin-small-web-1 fieldtwin-web:0.6.2 running=true restarts=0 oom=false\n/fieldtwin-small-fieldtwin-api-1 fieldtwin-api:0.6.2 running=true restarts=0 oom=false\n/fieldtwin-small-db-1 fieldtwin-postgres:0.2.0 running=true restarts=0 oom=false\nfieldtwin-small-web-1 5.137MiB / 64MiB\nfieldtwin-small-fieldtwin-api-1 193.8MiB / 320MiB\nfieldtwin-small-db-1 83.86MiB / 256MiB\n               total        used        free      shared  buff/cache   available\nMem:             961         680          87          36         382         281\nSwap:            511         188         323\nFilesystem      Size  Used Avail Use% Mounted on\n/dev/vda2       9.8G  7.4G  1.9G  81% /\n",
+  "rollback": {
+    "path": "/opt/fieldtwin/rollback-app-20261013-031847/restore.sh",
+    "previousWeb": "0.6.1",
+    "previousApi": "0.5.0",
+    "retained": true,
+    "executed": false
+  },
+  "archiveSha256": "46675dbb95fa4c91ee4610ea512e6a12f8424722e3773888311ffed9fc7aa8c7",
+  "cleanup": {
+    "remoteTransferArchiveRemoved": true,
+    "previousImagesRetained": true,
+    "tunnelRunning": true
+  },
+  "limitations": [
+    "No sustained load test or high-availability validation",
+    "Mobile browser viewport check, not physical-device GPU benchmark",
+    "Existing provider coverage and photography-date limitations unchanged",
+    "No schema migration or new database backup performed in this app-only deployment",
+    "GitHub CI not executed"
+  ]
+}

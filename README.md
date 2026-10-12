@@ -1,0 +1,77 @@
+# 방이2동 3D 생활지도
+
+서울 송파구 방이2동을 실제 행정동 경계와 건물 외곽으로 탐색하는 3D GIS 웹서비스입니다. 현재 NCP의 웹과 API 버전은 모두 0.6.2입니다.
+
+- 브이월드 공식 무료 3D API의 실제 외벽 사진과 지붕 모형, 실사/기본 지도 전환, 경계와 시설 표식
+- SGIS 원자료를 가공한 2026-07-01 경계, Overture 2026-09-23.1 건물 1,484개와 도로 404개, 공원 6곳과 학교 부지 1곳
+- 원본 높이 646개, 층수로 높이를 추정한 10개, 높이가 없어 평면으로 표시하는 828개를 명확히 구분
+- 3D/상부 시점 전환, 건물 선택과 출처 확인, 높이별 색상, 참고 그림자, 직선거리 측정, 배경지도, 모바일 하단 목록
+- 경계 안 생활시설 30곳: 따릉이 3곳, 주차장 15곳, 화장실 12곳. ‘주변 포함’에서 기존 생활권 165곳 탐색
+- 따릉이 2분 간격, 제공되는 주차 현황 5분 간격 수집. 미제공, 0대/0면, 오래된 값을 구분
+- 실시간 주차 잔여면 연동 3곳은 방이2동 밖에 있으므로 ‘주변’ 표시. 방이2동 내 주차장 15곳의 잔여면은 현재 미제공
+- 장소 저장, 길찾기, 익명 제보와 사진, 비공개 접수 조회, 운영자 처리와 답변 유지
+
+실사 지도는 브이월드 제공 모형입니다. 공식 구축표의 서울 지역 구축연도는 2024년이며 건물별 촬영일과 전체 누락률은 미확인입니다. 2025년 S-Map 비교 링크와 건물별 점검 목록을 제공합니다. [누락과 시점 점검 결과](docs/방이2동_실사데이터_누락과시점_점검.md)를 참고하세요. 건물 속성은 Overture 외곽과 위치를 대조하며, 실사 모형과 동일한 건물 ID를 사용하지 않습니다. 기본 지도의 건물 높이는 지도 속성으로 실측 정확도가 검증되지 않았습니다. 기본 지도 지면은 평탄한 WGS84 기준면이고 실제 외벽, 지붕, 지형 고도를 재현하지 않습니다. 그림자는 건물에서 기준면에 떨어지는 참고 표현으로 일조권 분석에 사용할 수 없습니다. 실제 데이터의 누락이 있을 수 있으며, 모든 건물을 완전하게 수록했다는 뜻은 아닙니다. 출처와 라이선스는 [공간 데이터 안내](data/bangi2/SOURCES.md)에 있습니다.
+
+## 실행
+
+Node 22.12 이상, Java 17, Docker가 필요합니다.
+
+공개 저장소에는 소스, 가공 공개 데이터와 검증 결과를 포함합니다. `.runtime/`, `.tools/`, 실제 API 키, 인증서 개인키, 관리자 비밀번호, DB 백업, 계정/보안 설정 화면은 제외합니다. 아래 로컬 전용 계정은 데모용이며 NCP 계정과 다릅니다. 공개 저장소를 복제해 실행할 때는 자신의 비공개 설정과 API 키를 사용해야 합니다.
+
+```sh
+npm ci
+bash scripts/local-db.sh
+npm run dev
+```
+
+접속: http://127.0.0.1:5173
+로컬 운영자: `admin@bangi.local` / `BangiLocal!2026` (로컬 환경에서만 생성)
+종료: `npm run stop`
+프로덕션 빌드: `npm run package`, 실행: `npm start`
+
+서울시 키는 `.runtime/bangi/seoul.env`에서 로드합니다. `SEOUL_API_KEY`와 `SEOUL_BIKE_API_BASE`를 서버 환경값으로만 전달합니다. 키가 없어도 공개 시설 탐색과 제보를 이용할 수 있습니다. 키를 코드, 이미지, 브라우저 환경변수에 포함하지 않습니다.
+
+## 현재 NCP 스테이징
+
+기존 무료 Micro 서버를 재사용합니다. 별도 도메인 없이 SSH 터널과 전용 TLS 인증서로 접근합니다.
+
+```sh
+bash scripts/staging-tunnel.sh start
+```
+
+접속: https://localhost:8443
+이 Mac에서는 localhost 전용 CA로 HTTPS를 검증합니다. 서버 인증서는 2027-01-09 만료 전 갱신해야 합니다. 다른 기기나 외부 공개 접속을 위한 공인 인증서는 아닙니다.
+시설 탐색에는 로그인이 필요 없습니다. 운영자는 기존 `admin@fieldtwin.local` 계정을 사용합니다. 비밀번호는 기존 비공개 배포 파일을 유지합니다.
+
+## 실사 지도 설정
+
+브이월드 개발키는 `.runtime/vworld/config.json`(600)에 보관합니다. 등록 URL은 `https://localhost:8443`, 현재 키 만료일은 **2027-04-11**입니다. 서울시 서버용 키와 다르게 브이월드 키는 브라우저 SDK 요청에서 보이는 키입니다. 저장소와 Docker 이미지에는 포함하지 않습니다. `node scripts/prepare-vworld3d.mjs`로 생성한 런타임 파일만 서버의 비공개 볼륨에 전달합니다. 일반 HTTP 로컬 개발에서는 기본 지도를 사용합니다.
+
+NCP의 `compose.vworld.yaml`로 실사 SDK 런타임 설정을 연결합니다. 0.6.2에서도 기존 SDK와 키를 유지합니다. 갱신 절차는 [실사 지도 운영 안내](experiments/vworld3d/README.md), 데이터 선택 근거는 [무료 데이터 조사](docs/방이2동_실사3D_데이터조사.md)를 참고하세요.
+
+## 검증
+
+```sh
+bash scripts/mvn.sh test -q -DargLine=-Djava.awt.headless=true
+npm run typecheck
+npm run build
+node --test tests/vworld3d.test.mjs
+npm run test:api # 로컬 API 실행 후
+```
+
+`tests/browser/platform.spec.ts`는 CI 브라우저 회귀 테스트입니다. 실제 Chrome 화면과 반응형 검증 기록은 `evidence/`에 저장합니다. [배포 검증 기록](docs/검증_결과.md)을 참고하세요.
+
+## 구조
+
+- `apps/web`: React, TypeScript, TanStack Query, Cesium 3D GIS
+- `services/api`: Java 17, Spring Boot, PostGIS 검색, 운영자 인증, 제보, 데이터 수집
+- `data`: 정규화한 공개 시설 스냅샷과 원본 해시
+- `infra/single-vm`: 기존 NCP 서버의 제한된 Compose 배포
+- `docs`: 새 서비스 기획과 운영 절차
+
+시설 조회, 지도 설정, 제보 처리는 백엔드의 `places`, `map`, `reports` 패키지로 분리했습니다. 프런트엔드의 탐색 조회/필터 훅과 상세 패널은 `apps/web/src/features/explore`에 있습니다. 변경 범위, 검증 방법, 확장 전 남은 과제는 [구조 점검과 리팩터링](docs/구조_점검과_리팩터링.md)을 참고하세요. 2026-10-13 NCP 0.6.2에 반영하고 주요 기능을 검증했습니다. [배포 결과와 복구 절차](docs/배포_0.6.2.md)에 기록했습니다.
+
+기존 Java 패키지와 컨테이너 이름의 `fieldtwin`은 계정/인프라 호환성을 위해 유지합니다. .runtime 원본 다운로드에서 `scripts/import-bangi2.py`, `scripts/enrich-bangi2-context.py` 순서로 공간 데이터를 재생성할 수 있습니다. 품질 검증: `.tools/gis-venv/bin/python tests/gis-data.py`. 배포된 V8 마이그레이션은 수정하지 말고 갱신 시 새 버전을 추가합니다.
+
+이전 소스는 `.runtime/legacy/fieldtwin-source-before-bangi.tar.gz`에 보관하고, 기존 DB 마이그레이션 V1–V3는 변경하지 않았습니다.

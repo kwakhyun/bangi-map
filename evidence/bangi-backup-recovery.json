@@ -1,0 +1,18 @@
+{
+  "testedAt": "2026-10-11T13:39:53.027Z",
+  "match": true,
+  "summary": {
+    "places": 165,
+    "reports": 6,
+    "users": 1,
+    "geometry": "76bbd8df94ef6d151b53e1cb0ceb763a",
+    "facilityMetadata": "84dd5b74cd5dd8673e024f629e7f7eca",
+    "reportPayloads": "68110873863c46fd3fb199092290ab53",
+    "buildings": 1484,
+    "buildingData": "33558ebaea8ccdd68529642dd1a8d287",
+    "districtData": "6d7396f018bf03bc83821648078a60ce"
+  },
+  "backupSha256": "1171cadf4659c19b4529176e04b8c1e4d1799f0a7ed560cba8fa0642ae811406",
+  "backupLocation": ".runtime/backups/ncp-1791725976470.dump",
+  "scope": "One manual backup to this computer; no recurring or cloud backup configured."
+}

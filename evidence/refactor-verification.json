@@ -1,0 +1,91 @@
+{
+  "checkedOn": "2026-10-13",
+  "scope": "local source refactoring; NCP not deployed",
+  "javaSuites": [
+    {
+      "name": "net.fieldtwin.BangiUnitTest",
+      "tests": "3",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0"
+    },
+    {
+      "name": "net.fieldtwin.DeploymentConfigTest",
+      "tests": "5",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0"
+    },
+    {
+      "name": "net.fieldtwin.ParkingSyncTest",
+      "tests": "6",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0"
+    },
+    {
+      "name": "net.fieldtwin.ReportPhotoConcurrencyTest",
+      "tests": "2",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0"
+    },
+    {
+      "name": "net.fieldtwin.places.PlaceSearchTest",
+      "tests": "2",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0"
+    },
+    {
+      "name": "net.fieldtwin.reports.ReportConcurrencyTest",
+      "tests": "3",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0"
+    },
+    {
+      "name": "net.fieldtwin.reports.ReportServiceTest",
+      "tests": "4",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0"
+    }
+  ],
+  "javaTotals": {
+    "tests": 25,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "apiRegression": {
+    "tests": 8,
+    "failures": 0,
+    "evidence": "refactor-api-tests.tap"
+  },
+  "vworldUnit": {
+    "tests": 3,
+    "failures": 0
+  },
+  "typecheck": "PASS",
+  "webBuild": "PASS",
+  "jarPackage": "PASS",
+  "browser": {
+    "method": "Chrome via CUA",
+    "desktop": "PASS: building search/detail, nearby places, parking empty state, facility detail, audit info",
+    "mobile": "PASS: 390x844 building search/detail with visible map",
+    "screenshots": [
+      "refactor-desktop.png",
+      "refactor-mobile.png"
+    ]
+  },
+  "ciExecuted": false,
+  "databaseMigrationsChanged": false,
+  "photoDecodingCapacity": "One decoder per JVM; concurrent photo requests receive retryable 429, photo-free submissions remain available",
+  "cleanup": {
+    "localApiStopped": true,
+    "localWebStopped": true,
+    "isolatedTestDatabaseRemoved": true,
+    "existingLocalDatabasePreserved": true
+  }
+}

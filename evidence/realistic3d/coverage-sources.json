@@ -1,0 +1,155 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "dates",
+      "title": "실사 데이터의 연도와 촬영일",
+      "queries": [
+        {
+          "id": "vworld-catalog",
+          "source": {
+            "label": "브이월드 LoD4 메타데이터",
+            "links": [
+              {
+                "label": "브이월드 데이터 목록",
+                "href": "https://www.vworld.kr/dtmk/dtmk_ntads_s001.do"
+              }
+            ],
+            "files": [
+              {
+                "label": "vworld-seoul-build-year.png"
+              }
+            ],
+            "metricDefinitions": [
+              {
+                "label": "구축연도",
+                "definition": "공식 지역별 구축표는 서울 전역의 구축연도를 2024년으로 안내합니다."
+              }
+            ],
+            "caveats": [
+              "지역 구축연도는 개별 건물의 촬영일이나 완전한 제공 범위를 증명하지 않습니다. 같은 페이지의 갱신일 필드는 2022-08-16으로 남아 있습니다."
+            ]
+          }
+        },
+        {
+          "id": "smap-viewer",
+          "source": {
+            "label": "서울시 S-Map",
+            "links": [
+              {
+                "label": "S-Map",
+                "href": "https://smap.seoul.go.kr/"
+              },
+              {
+                "label": "서울시 2025년 1월 발표",
+                "href": "https://mediahub.seoul.go.kr/archives/2013136"
+              }
+            ],
+            "files": [
+              {
+                "label": "smap-bangi2-2025.png"
+              }
+            ],
+            "metricDefinitions": [
+              {
+                "label": "선택 연도",
+                "definition": "S-Map의 2025년 건물과 배경지도를 선택한 상태에서 방이2동의 실사 화면을 확인했습니다."
+              }
+            ],
+            "caveats": [
+              "2025년 레이어의 개별 촬영일은 미확인입니다. 2025년 1월 발표의 촬영 기간인 2024년 3~6월을 이 레이어 촬영일로 단정하지 않았습니다."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "coverage",
+      "title": "1,484개 도형 점검과 실사 누락 판정의 한계",
+      "queries": [
+        {
+          "id": "footprint-audit",
+          "source": {
+            "label": "방이2동 도형 전체 점검",
+            "files": [
+              {
+                "label": "coverage-audit.json"
+              },
+              {
+                "label": "building-coverage-audit.csv"
+              },
+              {
+                "label": "coverage-audit.ipynb"
+              }
+            ],
+            "metricDefinitions": [
+              {
+                "label": "점검 대상",
+                "definition": "경계 안에 대표점이 있는 적용 도형 1,484개를 원본과 대조한 결과, ID 중복 없이 모든 도형이 유효하고 원본과 일치했습니다."
+              }
+            ],
+            "caveats": [
+              "실사 모델 목록이 없어 모델별 누락 수는 알 수 없습니다. 실사 누락 수를 0으로 계산하지 않았습니다. 이 도형 수는 현재 실제 건물의 전수 조사 결과가 아닙니다."
+            ]
+          },
+          "columns": [
+            "항목",
+            "수"
+          ],
+          "rows": [
+            {
+              "항목": "도형",
+              "수": 1484
+            },
+            {
+              "항목": "원본 일치",
+              "수": 1484
+            },
+            {
+              "항목": "ID 중복",
+              "수": 0
+            }
+          ],
+          "methods": [
+            {
+              "language": "python",
+              "code": "\"\"\"Reproduce the full footprint audit; never infer streamed 3D coverage from footprints.\"\"\"\nimport csv\nimport hashlib\nimport json\nfrom collections import Counter\nfrom datetime import datetime, timezone\nfrom pathlib import Path\nfrom shapely.geometry import shape\n\nROOT = Path(__file__).resolve().parents[1]\nscene_path = ROOT / 'apps/web/public/gis/bangi2-scene-v1.json'\nscene = json.loads(scene_path.read_text())\nbuildings = scene['buildings']['features']\nboundary = shape(scene['boundary']['geometry'])\nraw_path = ROOT / '.runtime/bangi3d/buildings-original.geojson'\nraw = {f['id']: f for f in json.loads(raw_path.read_text())['features']}\nids = [f['properties']['id'] for f in buildings]\nassert len(set(ids)) == len(ids), 'Duplicate building ID'\nassert set(ids) <= raw.keys(), 'Missing original records'\nrows, groups = [], {}\nfor f in buildings:\n    p = f['properties']; geom = shape(f['geometry'])\n    assert geom.is_valid and not geom.is_empty and boundary.covers(geom.representative_point())\n    assert geom.equals_exact(shape(raw[p['id']]['geometry']), 0)\n    original = raw[p['id']]['properties']\n    dates = []\n    providers = []\n    for s in p['sources']:\n        provider = s.get('provider') or s.get('dataset') or 'unknown'\n        providers.append(provider)\n        group = groups.setdefault(provider, {'buildings': 0, 'updateTimes': []})\n        group['buildings'] += 1\n        if s.get('update_time'):\n            dates.append(s['update_time']); group['updateTimes'].append(s['update_time'])\n    rows.append({\n        'building_id': p['id'], 'longitude': p['longitude'], 'latitude': p['latitude'],\n        'footprint_provider': '|'.join(providers), 'footprint_release': scene['metadata']['buildingRelease'],\n        'source_update_time': '|'.join(sorted(set(dates))), 'height_status': p['heightKind'],\n        'vworld_model_id': '', 'photoreal_status': 'UNVERIFIED', 'capture_date': '',\n        'reason': 'No building-level model inventory or capture-date metadata obtained',\n    })\nfor group in groups.values():\n    dates = group.pop('updateTimes')\n    group['minSourceUpdateTime'] = min(dates) if dates else None\n    group['maxSourceUpdateTime'] = max(dates) if dates else None\nappearance = ['facade_color', 'facade_material', 'roof_material', 'roof_shape', 'roof_direction', 'roof_orientation', 'roof_color', 'roof_height']\n"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reuse",
+      "title": "최신 실사 모델을 가져오기 위한 조건",
+      "queries": [
+        {
+          "id": "smap-faq",
+          "source": {
+            "label": "서울시 3D 데이터 제공 FAQ 2026.04.",
+            "links": [
+              {
+                "label": "서울시 오픈랩",
+                "href": "https://openlab.eseoul.go.kr/"
+              }
+            ],
+            "files": [
+              {
+                "label": "smap-data-faq-202604.pdf"
+              }
+            ],
+            "metricDefinitions": [
+              {
+                "label": "원본 제공",
+                "definition": "S-Map 3D 원본은 별도 신청과 심사를 거쳐 제공되며, 민간 사업자와 학술 연구의 절차가 구분됩니다."
+              }
+            ],
+            "caveats": [
+              "무료 지도 조회와 원본 재사용은 다릅니다. 확정 비용과 이 프로젝트의 제공 자격은 미확인입니다. 새 원본 모델은 확보하지 않았습니다."
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

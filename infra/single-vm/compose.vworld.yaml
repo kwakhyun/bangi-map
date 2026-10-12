@@ -1,0 +1,6 @@
+# Generated SDK gate contains the browser API key, kept out of build contexts.
+# Directory must be owned by UID 101 and restricted to that user on the VM.
+services:
+  web:
+    volumes:
+      - ${FIELD_TWIN_RUNTIME_DIR}/vworld:/opt/bangi-vworld:ro

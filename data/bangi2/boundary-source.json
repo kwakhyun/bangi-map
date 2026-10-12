@@ -1,0 +1,14 @@
+{
+  "url": "https://raw.githubusercontent.com/vuski/admdongkor/7360288277dfd12d74e54b959c59bdd66f852e3a/ver20260701/HangJeongDong_ver20260701.geojson",
+  "commit": "7360288277dfd12d74e54b959c59bdd66f852e3a",
+  "datasetVersion": "2026-07-01",
+  "sha256": "c01ef44a0eb00978662ba7a6240ccb1da287fb52abd85104a1758969d391132f",
+  "areaM2": 767573.0936336741,
+  "bounds": [
+    127.10664911398601,
+    37.50776116180219,
+    127.12102781581191,
+    37.51771922433603
+  ],
+  "license": "CC-BY-4.0; upstream SGIS KOGL Type 1"
+}

@@ -1,0 +1,41 @@
+# Experimental 1GB Micro profile. Validate on the target VM before retaining it.
+# Base Compose file first, then this override. Build images on the developer machine.
+x-small-java: &small-java
+  JAVA_TOOL_OPTIONS: -Djava.awt.headless=true -Xms32m -Xmx144m -XX:MaxMetaspaceSize=96m -XX:ReservedCodeCacheSize=32m -Xss256k -XX:+UseSerialGC -XX:ActiveProcessorCount=1
+  SPRING_DATASOURCE_HIKARI_MAXIMUM_POOL_SIZE: "3"
+  SPRING_DATASOURCE_HIKARI_MINIMUM_IDLE: "1"
+  SERVER_TOMCAT_THREADS_MAX: "8"
+  SERVER_TOMCAT_THREADS_MIN_SPARE: "1"
+
+services:
+  db:
+    mem_limit: 256m
+    memswap_limit: 256m
+    command:
+      [
+        postgres,
+        -c,
+        shared_buffers=32MB,
+        -c,
+        work_mem=1MB,
+        -c,
+        maintenance_work_mem=16MB,
+        -c,
+        max_connections=20,
+      ]
+  fieldtwin-api:
+    mem_limit: 320m
+    memswap_limit: 320m
+    environment: *small-java
+  web:
+    mem_limit: 64m
+    memswap_limit: 64m
+    cpus: 0.25
+  migrate-api:
+    mem_limit: 384m
+    memswap_limit: 384m
+    environment: *small-java
+  bootstrap:
+    mem_limit: 384m
+    memswap_limit: 384m
+    environment: *small-java

@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-10-11T18:45:07.811738+00:00",
+  "district": "방이2동",
+  "scope": "Shipped Overture footprint inventory; not a census of current buildings",
+  "footprints": {
+    "count": 1484,
+    "uniqueIds": 1484,
+    "validGeometries": 1484,
+    "matchedSourceGeometries": 1484,
+    "release": "2026-09-23.1",
+    "sourceGroups": {
+      "zenodo": {
+        "buildings": 510,
+        "minSourceUpdateTime": "2024-11-01T00:00:00.000Z",
+        "maxSourceUpdateTime": "2024-11-01T00:00:00.000Z"
+      },
+      "osm": {
+        "buildings": 974,
+        "minSourceUpdateTime": "2025-02-12T12:53:40.000Z",
+        "maxSourceUpdateTime": "2026-08-29T04:59:55.000Z"
+      }
+    },
+    "heightCounts": {
+      "UNKNOWN": 828,
+      "SOURCE": 646,
+      "FLOORS": 10
+    },
+    "appearanceAttributeCounts": {
+      "facade_color": 0,
+      "facade_material": 0,
+      "roof_material": 0,
+      "roof_shape": 0,
+      "roof_direction": 0,
+      "roof_orientation": 0,
+      "roof_color": 0,
+      "roof_height": 0
+    }
+  },
+  "photoreal": {
+    "status": "UNVERIFIED",
+    "missingCount": null,
+    "completeCount": null,
+    "buildingLevelAuditCompleted": false,
+    "unverifiedFootprintCount": 1484,
+    "knownCaptureDateCount": 0,
+    "reason": "Provider model inventory and building-level capture dates unavailable in inspected public metadata. Visual samples do not establish completeness."
+  },
+  "vworld": {
+    "regionalBuildYear": 2024,
+    "region": "서울 전역",
+    "regionalAreaKm2": 605,
+    "captureDate": null,
+    "catalogServiceUpdatedAt": "2022-08-16",
+    "dateCaveat": "Regional build-year table and legacy service-update field disagree; neither establishes each rendered model capture date.",
+    "metadataUrl": "https://www.vworld.kr/dtmk/dtmk_ntads_s002.do?svcCde=DT&dsId=DAT_0000000000000125"
+  },
+  "smap": {
+    "latestSelectableYearObserved": 2025,
+    "bangi2VisualSampleConfirmed": true,
+    "captureDate": null,
+    "rawDataAcquired": false,
+    "rawDataRequiresApplication": true,
+    "freeViewerUrl": "https://smap.seoul.go.kr/#MjA5ODU3LjE3NDQ1Mzg3OTQ3LDU0NjMzMS4zMDg1Nzg5NjM1LDAsMC43ODUzOTgxNjMzOTc0NDgzLDMwMA==&encode=y&3D",
+    "faqUrl": "https://openlab.eseoul.go.kr/",
+    "faqRevision": "2026-04",
+    "note": "2025 is the selected map layer year, not a verified per-building capture date. Raw model reuse is subject to supplier review; fee not established."
+  },
+  "hashes": {
+    "sceneSha256": "6273a63b84361310f7e3b86d6aac126b6b5c75c8074c991f5cc19d18c3b323b8",
+    "originalSha256": "da07e453a92f4cf29264c3e288c29b6c31a4d86d690ca46a25cce3988ea6f4d4"
+  }
+}

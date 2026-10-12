@@ -1,0 +1,29 @@
+{
+  "name": "bangi-map",
+  "private": true,
+  "version": "0.6.2",
+  "type": "module",
+  "workspaces": [
+    "apps/web"
+  ],
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "dev:web": "npm run dev --workspace @fieldtwin/web",
+    "build": "npm run build --workspaces",
+    "typecheck": "npm run typecheck --workspaces",
+    "test:api": "node --test tests/api.test.mjs",
+    "test:e2e": "playwright test",
+    "stop": "node scripts/stop.mjs",
+    "format": "prettier --write \"apps/web/src/**/*.{ts,tsx,css}\" \"scripts/*.mjs\" \"tests/**/*.{ts,mjs}\"",
+    "package": "npm run build && bash scripts/mvn.sh package -q",
+    "start": "node scripts/dev.mjs --preview",
+    "build:images": "bash scripts/build-images.sh"
+  },
+  "engines": {
+    "node": ">=22.12"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.64.0",
+    "prettier": "3.9.9"
+  }
+}

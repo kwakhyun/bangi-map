@@ -1,0 +1,92 @@
+{
+  "verifiedAt": "2026-10-11T12:27:33.504Z",
+  "version": "0.4.0",
+  "counts": [
+    {
+      "kind": "BIKE",
+      "count": 58
+    },
+    {
+      "kind": "PARKING",
+      "count": 33
+    },
+    {
+      "kind": "TOILET",
+      "count": 74
+    }
+  ],
+  "parkingSource": {
+    "id": "seoul-parking",
+    "status": "READY",
+    "lastAttemptAt": "2026-10-11T12:25:37.333112Z",
+    "lastSuccessAt": "2026-10-11T12:25:37.452640Z",
+    "message": "3개 주차장의 연동 상태를 확인했습니다. 제공 시각과 현장 상황을 함께 확인해 주세요.",
+    "configured": true,
+    "linkedCount": 3
+  },
+  "bikeSource": {
+    "id": "seoul-bike",
+    "status": "READY",
+    "lastAttemptAt": "2026-10-11T12:27:23.228956Z",
+    "lastSuccessAt": "2026-10-11T12:27:23.739192Z",
+    "message": "57개 대여소의 최근 수집값입니다. 실제 현장과 차이가 날 수 있습니다.",
+    "configured": true
+  },
+  "live": [
+    {
+      "id": "parking-1475224",
+      "name": "성내역(잠실나루역) 공영주차장(시)",
+      "available": 13,
+      "totalCapacity": 28,
+      "occupied": 15,
+      "providerUpdatedAt": "2026-10-11T12:24:47Z",
+      "checkedAt": "2026-10-11T12:25:37.452640Z",
+      "freshness": "FRESH"
+    },
+    {
+      "id": "parking-1277145",
+      "name": "잠실역 공영주차장(시)",
+      "available": 243,
+      "totalCapacity": 357,
+      "occupied": 114,
+      "providerUpdatedAt": "2026-10-11T12:24:43Z",
+      "checkedAt": "2026-10-11T12:25:37.452640Z",
+      "freshness": "FRESH"
+    },
+    {
+      "id": "parking-173646",
+      "name": "신천유수지 공영주차장(시)",
+      "available": 137,
+      "totalCapacity": 192,
+      "occupied": 55,
+      "providerUpdatedAt": "2026-10-11T12:24:44Z",
+      "checkedAt": "2026-10-11T12:25:37.452640Z",
+      "freshness": "FRESH"
+    }
+  ],
+  "tls": {
+    "authorized": true,
+    "subject": "localhost",
+    "issuer": "Bangi Localhost CA",
+    "validTo": "Jan  9 12:01:18 2027 GMT"
+  },
+  "javaTests": 14,
+  "apiTests": 7,
+  "publicResponseKeyLeak": false,
+  "browserVerification": {
+    "chromeSecurity": "이 연결은 안전합니다.",
+    "parkingCount": 33,
+    "linkedCount": 3,
+    "checkboxWidthCssPixels": 15,
+    "mobileViewport": {
+      "width": 390,
+      "height": 844
+    },
+    "mobileCssWidth": 433,
+    "mobileScrollWidth": 433,
+    "mobileListMapAndDetail": true,
+    "viewportRestored": true,
+    "errorsOrWarnings": []
+  },
+  "localDevelopmentServersStopped": true
+}

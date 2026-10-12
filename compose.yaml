@@ -1,0 +1,31 @@
+# Local-only convenience stack. The existing private NCP deployment uses infra/single-vm/.
+services:
+  db:
+    build: infra/postgres
+    environment:
+      POSTGRES_DB: fieldtwin_bangi
+      POSTGRES_USER: fieldtwin
+      POSTGRES_PASSWORD: ${DATABASE_PASSWORD:?Set DATABASE_PASSWORD}
+    volumes: [bangi-data:/var/lib/postgresql/data]
+    healthcheck:
+      test: [CMD-SHELL, pg_isready -U fieldtwin -d fieldtwin_bangi]
+      interval: 5s
+      retries: 20
+  fieldtwin-api:
+    build: {context: ., dockerfile: services/api/Dockerfile}
+    environment:
+      DATABASE_URL: jdbc:postgresql://db:5432/fieldtwin_bangi
+      DATABASE_USER: fieldtwin
+      DATABASE_PASSWORD: ${DATABASE_PASSWORD:?Set DATABASE_PASSWORD}
+      FIELD_TWIN_DEMO: "true"
+      ALLOWED_ORIGIN: http://127.0.0.1:8088
+      COOKIE_SECURE: "false"
+      SEOUL_API_KEY: ${SEOUL_API_KEY:-}
+      SEOUL_BIKE_API_BASE: ${SEOUL_BIKE_API_BASE:-https://openapi.seoul.go.kr:8088}
+    depends_on: {db: {condition: service_healthy}}
+  web:
+    build: {context: ., dockerfile: apps/web/Dockerfile}
+    ports: [127.0.0.1:8088:8080]
+    depends_on: [fieldtwin-api]
+volumes:
+  bangi-data:

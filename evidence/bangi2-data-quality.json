@@ -1,0 +1,16 @@
+{
+  "checkedAt": "2026-10-11T18:47:31.826426+00:00",
+  "valid": true,
+  "buildings": 1484,
+  "heightCounts": {
+    "UNKNOWN": 828,
+    "SOURCE": 646,
+    "FLOORS": 10
+  },
+  "roads": 404,
+  "landPolygons": 7,
+  "geometryMatchesSource": true,
+  "sceneBytes": 1161756,
+  "gzipBytes": 170440,
+  "sceneSha256": "6273a63b84361310f7e3b86d6aac126b6b5c75c8074c991f5cc19d18c3b323b8"
+}

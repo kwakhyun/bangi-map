@@ -1,0 +1,24 @@
+{
+  "verifiedAt": "2026-10-12T18:20:24.592Z",
+  "webVersion": "0.6.2",
+  "apiVersion": "0.6.2",
+  "tls": {
+    "authorized": true,
+    "issuer": "Bangi Localhost CA"
+  },
+  "provider": {
+    "enabled": true,
+    "expiresAt": "2027-04-11"
+  },
+  "strictParentCsp": true,
+  "scopedSdkCsp": true,
+  "runtimeAssetsMatch": true,
+  "sceneSha256": "6273a63b84361310f7e3b86d6aac126b6b5c75c8074c991f5cc19d18c3b323b8",
+  "facilityCount": 30,
+  "coverageAuditPublished": true,
+  "coverageMissingCount": null,
+  "bike": "READY",
+  "parking": "READY",
+  "unauthorizedAdminRejected": true,
+  "runtime": "/fieldtwin-small-web-1 a7caeaa1e464ab458dbdf20b492d7db601f0d93e56d6fa121f339c97e3e548f2 fieldtwin-web:0.6.2 true false\n/fieldtwin-small-fieldtwin-api-1 b1cd79323159410386ab840bef68e48fbacf2f8a904b765a91994006a5da3f37 fieldtwin-api:0.6.2 true false\n/fieldtwin-small-db-1 5230f23b54027fe287292bf6fc1fa505f25bf9415bf54572ff81174150d0143d fieldtwin-postgres:0.2.0 true false\nfieldtwin-small-web-1 11.34MiB / 64MiB\nfieldtwin-small-fieldtwin-api-1 184.8MiB / 320MiB\nfieldtwin-small-db-1 73.75MiB / 256MiB\n               total        used        free      shared  buff/cache   available\nMem:             961         671          71          36         407         289\nSwap:            511         158         353\nFilesystem      Size  Used Avail Use% Mounted on\n/dev/vda2       9.8G  7.6G  1.7G  82% /\n"
+}

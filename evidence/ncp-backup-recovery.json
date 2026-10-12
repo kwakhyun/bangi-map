@@ -1,0 +1,16 @@
+{
+  "testedAt": "2026-10-11T11:20:54.061Z",
+  "match": true,
+  "summary": {
+    "assets": 1,
+    "users": 1,
+    "jobs": 3,
+    "models": 2,
+    "geometry": "144178ed1e2c924ab429efa9889f46bc",
+    "modelPayloads": "242d39cd1c4f3e792a1d9b864c4fc182",
+    "documents": "a79d12e2fd77928579710f638f58bf90"
+  },
+  "backupSha256": "0d26d462ce761865da94c87582fd44ee181562bc1705f14c37c0ce67a23c4bd3",
+  "backupLocation": ".runtime/backups/ncp-1791717625283.dump",
+  "scope": "One manual backup to this computer; no recurring or cloud backup configured."
+}

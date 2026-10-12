@@ -1,0 +1,11 @@
+/fieldtwin-small-web-1 fieldtwin-web:0.6.2 running=true restarts=0 oom=false
+/fieldtwin-small-fieldtwin-api-1 fieldtwin-api:0.6.2 running=true restarts=0 oom=false
+/fieldtwin-small-db-1 fieldtwin-postgres:0.2.0 running=true restarts=0 oom=false
+fieldtwin-small-web-1 5.137MiB / 64MiB
+fieldtwin-small-fieldtwin-api-1 193.8MiB / 320MiB
+fieldtwin-small-db-1 83.86MiB / 256MiB
+               total        used        free      shared  buff/cache   available
+Mem:             961         680          87          36         382         281
+Swap:            511         188         323
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/vda2       9.8G  7.4G  1.9G  81% /

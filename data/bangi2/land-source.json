@@ -1,0 +1,8 @@
+{
+  "release": "2026-09-23.1",
+  "source": "s3://overturemaps-us-west-2/release/2026-09-23.1/theme=base/type=land_use/",
+  "sha256": "1fbacb5e4efef5b27cd7b8d0ce491983b2d85e14e4bbbcda7905432ecbb9c17d",
+  "license": "ODbL-1.0",
+  "processing": "park/school polygons intersected with Bangi 2-dong boundary",
+  "features": 7
+}
