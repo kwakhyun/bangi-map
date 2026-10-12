@@ -156,6 +156,21 @@ def recover(root=ROOT):
         journal = json.loads(path.read_text())
         if journal["state"] == "pending":
             return restore_transaction(journal, root)
+        # A crash after committing the rollout but before saving its callback
+        # must acknowledge the healthy release, not attempt the same snapshot again.
+        outcome_path = root / "runtime/cicd/outcome.json"
+        outcome = json.loads(outcome_path.read_text()) if outcome_path.exists() else {}
+        if journal["state"] == "committed" and outcome.get("deploymentId", 0) < journal["deploymentId"]:
+            try:
+                health(root, sha=journal["sha"], timeout=30)
+                check_containers(journal["images"], journal["databaseId"], root)
+            except Exception:
+                journal["state"] = "pending"
+                save(path, journal)
+                return restore_transaction(journal, root)
+            result = {"deploymentId": journal["deploymentId"], "sha": journal["sha"],
+                      "state": "success", "description": "NCP verified release recovered after callback interruption", "rolledBack": False}
+            save(outcome_path, result)
     return None
 
 

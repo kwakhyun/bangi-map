@@ -1,5 +1,4 @@
 """Deployment safety contracts, including actual env-file restoration on failure."""
-import copy
 import hashlib
 import json
 import sys
@@ -80,6 +79,19 @@ class WorkflowTests(unittest.TestCase):
             with self.assertRaises(ValueError):
                 agent.validate_workflow(self.request, self.request["payload"], self.run, jobs, self.branch)
 
+    def test_expired_callback_is_not_retried_forever(self):
+        with tempfile.TemporaryDirectory() as folder:
+            root = Path(folder)
+            private = root / "runtime/cicd"
+            private.mkdir(parents=True)
+            self.request["created_at"] = "2000-01-01T00:00:00Z"
+            self.request["payload"]["expiresAt"] = "2000-01-01T00:20:00Z"
+            deploy.save(private / "outcome.json", {"deploymentId": 1, "state": "success"})
+            with patch.object(agent, "github", return_value=[self.request]), patch.object(deploy, "recover"), patch.object(agent, "decrypt_token") as decrypt:
+                agent.main(root)
+            self.assertEqual(json.loads((private / "poll-state.json").read_text())["lastHandledId"], 1)
+            decrypt.assert_not_called()
+
 
 class TransactionTests(unittest.TestCase):
     def setUp(self):
@@ -145,6 +157,30 @@ class TransactionTests(unittest.TestCase):
         self.assertTrue(deploy.recover(self.root)["rolledBack"])
         self.assertEqual(self.env.read_text(), self.previous)
         self.assertIsNone(deploy.recover(self.root))
+
+    def test_crash_after_commit_recovers_callback_without_redeploying(self):
+        deploy.apply(release(), self.archive, 42, self.root)
+        self.dc.reset_mock()
+        self.assertIsNone(deploy.recover(self.root))
+        self.dc.assert_not_called()
+        outcome = json.loads((self.root / "runtime/cicd/outcome.json").read_text())
+        self.assertEqual(outcome["deploymentId"], 42)
+        self.assertEqual(outcome["state"], "success")
+
+    def test_recovery_does_not_overwrite_a_newer_rejected_request(self):
+        deploy.apply(release(), self.archive, 42, self.root)
+        outcome_path = self.root / "runtime/cicd/outcome.json"
+        deploy.save(outcome_path, {"deploymentId": 43, "state": "failure"})
+        self.health.reset_mock()
+        deploy.recover(self.root)
+        self.health.assert_not_called()
+        self.assertEqual(json.loads(outcome_path.read_text())["deploymentId"], 43)
+
+    def test_callback_recovery_rolls_back_if_committed_containers_are_unhealthy(self):
+        deploy.apply(release(), self.archive, 42, self.root)
+        self.health.side_effect = [RuntimeError("restart before callback"), None]
+        self.assertTrue(deploy.recover(self.root)["rolledBack"])
+        self.assertEqual(self.env.read_text(), self.previous)
 
 
 if __name__ == "__main__":

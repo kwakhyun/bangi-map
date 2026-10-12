@@ -175,21 +175,20 @@ def main(root=deploy.ROOT):
     state = json.loads(state_path.read_text()) if state_path.exists() else {}
     if request["id"] <= state.get("lastHandledId", 0):
         return
-    outcome_path = private / "outcome.json"
-    if outcome_path.exists():
-        outcome = json.loads(outcome_path.read_text())
-        if outcome["deploymentId"] == request["id"]:
-            payload = validate_request(request)
-            request["payload"] = payload
-            status(request, decrypt_token(payload, root), outcome["state"], outcome["description"])
-            deploy.save(state_path, {"lastHandledId": request["id"]})
-            return
     try:
-        validate_request(request)
+        payload = validate_request(request)
     except (ValueError, KeyError):
         deploy.save(state_path, {"lastHandledId": request["id"]})
         print("Ignored an expired or unsupported deployment request", flush=True)
         return
+    request["payload"] = payload
+    outcome_path = private / "outcome.json"
+    if outcome_path.exists():
+        outcome = json.loads(outcome_path.read_text())
+        if outcome["deploymentId"] == request["id"]:
+            status(request, decrypt_token(payload, root), outcome["state"], outcome["description"])
+            deploy.save(state_path, {"lastHandledId": request["id"]})
+            return
     outcome = process(request, root)
     deploy.save(state_path, {"lastHandledId": request["id"]})
     print(json.dumps(outcome), flush=True)
