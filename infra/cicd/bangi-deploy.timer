@@ -1,0 +1,11 @@
+[Unit]
+Description=Check verified Bangi deployment requests every two minutes
+
+[Timer]
+OnBootSec=45s
+OnUnitInactiveSec=2min
+RandomizedDelaySec=10s
+Unit=bangi-deploy.service
+
+[Install]
+WantedBy=timers.target

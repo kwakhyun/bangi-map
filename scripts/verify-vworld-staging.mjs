@@ -7,6 +7,10 @@ const ca = await readFile(".runtime/ncp/deploy/tls/ca.crt");
 const release = JSON.parse(await readFile("package.json", "utf8")).version;
 const webVersion = process.env.EXPECTED_WEB_VERSION || release;
 const apiVersion = process.env.EXPECTED_API_VERSION || release;
+const expectedRevision = process.env.EXPECTED_REVISION;
+if (expectedRevision) assert.match(expectedRevision, /^[0-9a-f]{40}$/);
+const webTag = expectedRevision ? `sha-${expectedRevision}` : webVersion;
+const apiTag = expectedRevision ? `sha-${expectedRevision}` : apiVersion;
 assert.match(webVersion, /^\d+\.\d+\.\d+$/);
 assert.match(apiVersion, /^\d+\.\d+\.\d+$/);
 const get = (path) =>
@@ -100,16 +104,23 @@ const runtime = execFileSync(
   ],
   { encoding: "utf8" },
 );
-assert.ok(runtime.includes(`fieldtwin-web:${webVersion} true false`));
-assert.ok(runtime.includes(`fieldtwin-api:${apiVersion} true false`));
+assert.ok(runtime.includes(`fieldtwin-web:${webTag} true false`));
+assert.ok(runtime.includes(`fieldtwin-api:${apiTag} true false`));
 const apiConfig = JSON.parse((await get('/api/config')).body);
 assert.equal(apiConfig.version, apiVersion);
 assert.equal(apiConfig.environment, 'staging');
 assert.equal(apiConfig.demo, false);
+if (expectedRevision) {
+  assert.equal(apiConfig.revision, expectedRevision);
+  const webRelease = await get('/release.json');
+  assert.equal(webRelease.code, 200);
+  assert.equal(JSON.parse(webRelease.body).revision, expectedRevision);
+}
 const report = {
   verifiedAt: new Date().toISOString(),
   webVersion,
   apiVersion,
+  revision: expectedRevision || null,
   tls: root.tls,
   provider: metadata,
   strictParentCsp: true,

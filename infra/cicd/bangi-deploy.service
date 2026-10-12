@@ -1,0 +1,26 @@
+[Unit]
+Description=Bangi verified main deployment poller
+After=network-online.target docker.service
+Wants=network-online.target
+Requires=docker.service
+
+[Service]
+Type=oneshot
+WorkingDirectory=/opt/fieldtwin
+ExecStart=/usr/bin/python3 /opt/fieldtwin/ci/agent.py
+ExecStopPost=/usr/bin/python3 /opt/fieldtwin/ci/deploy.py recover
+TimeoutStartSec=20min
+TimeoutStopSec=5min
+UMask=0077
+MemoryMax=192M
+CPUQuota=50%
+Nice=10
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/opt/fieldtwin
+ProtectKernelTunables=true
+ProtectControlGroups=true
+RestrictAddressFamilies=AF_UNIX AF_INET AF_INET6
+

@@ -17,6 +17,7 @@ __pycache__/
 
 # Private credentials and database backups must never be published.
 *.pem
+!infra/cicd/ncp-callback-public.pem
 *.key
 *.p12
 *.pfx
