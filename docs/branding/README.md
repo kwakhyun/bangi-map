@@ -6,6 +6,7 @@
 - 생성 원본: [bangi-icon-source.png](bangi-icon-source.png), 1254 × 1254 PNG
 - 웹 자산: `apps/web/public/brand/bangi-icon-{32,48,96,180,192,512}.png`
 - 적용: 화면 상단 로고, 브라우저 탭, Apple 홈 화면 아이콘, 웹 앱 아이콘 메타데이터
+- 아이콘 메타데이터는 `/site-manifest.json`에서 제공한다. 기존 Nginx MIME 설정에 맞춰 JSON 확장자를 사용한다.
 - 파생 파일은 원본의 비율과 색을 유지한 채 macOS `sips`로 축소했다. 모서리 곡률은 화면에서 CSS로 적용한다.
 - 매니페스트는 아이콘 메타데이터를 제공한다. 오프라인 기능이나 별도의 앱 설치 기능을 추가하지 않는다.
 
