@@ -1,0 +1,13 @@
+{
+  "name": "방이2동 3D 생활지도",
+  "short_name": "방이 생활지도",
+  "lang": "ko",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "icons": [
+    { "src": "/brand/bangi-icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/brand/bangi-icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" }
+  ]
+}

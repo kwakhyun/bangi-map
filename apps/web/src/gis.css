@@ -49,14 +49,12 @@ input:focus-visible {
   min-width: 182px;
 }
 .gis-brand-mark {
-  width: 37px;
+  width: 40px;
   height: 40px;
-  color: #fff;
-  background: linear-gradient(145deg, #5b9aff, #2175ed);
+  flex-shrink: 0;
+  display: block;
+  object-fit: contain;
   border-radius: 12px;
-  display: grid;
-  place-items: center;
-  box-shadow: 0 3px 8px #347eec24;
 }
 .gis-brand small {
   display: inline-block;
@@ -1294,12 +1292,9 @@ input:focus-visible {
     gap: 8px;
   }
   .gis-brand-mark {
-    width: 31px;
-    height: 33px;
+    width: 32px;
+    height: 32px;
     border-radius: 10px;
-  }
-  .gis-brand-mark svg {
-    width: 21px;
   }
   .gis-brand small {
     font-size: 9px;

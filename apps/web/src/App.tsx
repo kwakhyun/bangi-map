@@ -8,7 +8,6 @@ import {
   X,
   Check,
   Building2,
-  Layers3,
   MapPin,
   PanelLeftClose,
   PanelLeftOpen,
@@ -167,10 +166,15 @@ export function App() {
   return (
     <div className="gis-app">
       <header className="gis-header">
-        <a href="/" className="gis-brand">
-          <span className="gis-brand-mark">
-            <Layers3 size={24} />
-          </span>
+        <a href="/" className="gis-brand" aria-label="방이2동 3D 생활지도 홈">
+          <img
+            className="gis-brand-mark"
+            src="/brand/bangi-icon-96.png"
+            srcSet="/brand/bangi-icon-192.png 2x"
+            width={40}
+            height={40}
+            alt=""
+          />
           <span>
             방이<span className="brand-number">2</span>동
             <small>3D 생활지도</small>
