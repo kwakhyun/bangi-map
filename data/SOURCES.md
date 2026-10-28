@@ -1,5 +1,7 @@
 # 데이터 출처와 재현
 
+> 정적 자료는 아래 수집일의 스냅샷이다. 2026-10-29 NCP 운영 종료로 기존 실시간 수집은 중단됐다. 수집 주기 설명은 키를 설정해 서비스를 다시 실행할 때의 코드 동작이며 현재 수집 상태가 아니다.
+
 수집일: 2026-10-11. 정규화 결과 `bangi-places.json`, 원본 SHA-256과 추출 범위 `manifest.json`.
 
 | 시설 | 원본 | 기준 | 이용허락 |
@@ -17,6 +19,7 @@
 다운로드 원본은 `.runtime/bangi-sources/`에 저장했다. 공개 다운로드는 아래와 같이 재현할 수 있다.
 
 ```sh
+mkdir -p .runtime/bangi-sources
 curl -fsSL 'https://datafile.seoul.go.kr/bigfile/iot/inf/nio_download.do?useCache=false' --data 'infId=OA-13252&seq=24&infSeq=2' -o .runtime/bangi-sources/bikes.xlsx
 curl -fsSL 'https://datafile.seoul.go.kr/bigfile/iot/sheet/json/download.do' --data 'infId=OA-22586&srvType=S&serviceKind=1&pageNo=1&ssUserId=SAMPLE_VIEW' -o .runtime/bangi-sources/toilets-download.json
 curl -fsSL 'https://datafile.seoul.go.kr/bigfile/iot/sheet/json/download.do' --data 'infId=OA-13122&srvType=S&serviceKind=1&pageNo=1&ssUserId=SAMPLE_VIEW' -o .runtime/bangi-sources/parking-download.json
@@ -25,7 +28,7 @@ python3 scripts/import-bangi-data.py
 
 V5는 최초 배포된 스냅샷이므로 배포 이후에는 수정하지 않는다. 새 원본은 정규화 결과를 검토한 뒤 V6 이상의 별도 마이그레이션으로 반영해야 한다. 서울시 API의 `list_total_count`는 해당 응답 건수로 확인되어 전체 건수로 사용하지 않는다. 1,000행씩 읽어 마지막 페이지까지 수집한다.
 
-인증키는 2026-10-11 사용자 승인으로 신규 발급했다. 공식 API가 안내하는 HTTP(8088) 사용의 키 노출 위험을 설명한 뒤 사용자가 명시적으로 승인했다. 서버의 목적지는 해당 공식 호스트로 제한하고 리다이렉트와 URL 로그를 금지한다. 서비스 자체는 HTTPS를 유지한다.
+인증키는 2026-10-11 사용자 승인으로 신규 발급했다. 공식 API가 안내하는 HTTP(8088) 사용의 키 노출 위험을 설명한 뒤 사용자가 명시적으로 승인했다. 서버의 목적지는 해당 공식 호스트로 제한하고 리다이렉트와 URL 로그를 금지한다. 당시 NCP 서비스는 HTTPS를 사용했다. 현재 로컬 기본 실행은 loopback HTTP이며, 새 외부 배포에는 별도 HTTPS 구성이 필요하다.
 
 
 ## 주차장 확장 (0.4.0)
