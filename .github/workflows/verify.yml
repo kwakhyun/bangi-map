@@ -1,15 +1,12 @@
-name: Verify and deploy Bangi Map
+name: Manual verification (service retired)
+# Cloud operation ended on 2026-10-29. No automatic runs or deployment jobs.
 on:
-  pull_request:
-  push:
-    branches: [main]
   workflow_dispatch:
 permissions:
   contents: read
 concurrency:
   group: verify-${{ github.ref }}
-  # Never interrupt a main rollout between stopping and restoring containers.
-  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+  cancel-in-progress: true
 jobs:
   verify:
     runs-on: ubuntu-24.04
@@ -69,63 +66,3 @@ jobs:
       - name: Stop application
         if: always()
         run: npm run stop
-
-  package:
-    needs: verify
-    if: github.ref == 'refs/heads/main' && (github.event_name == 'push' || github.event_name == 'workflow_dispatch')
-    runs-on: ubuntu-24.04
-    timeout-minutes: 20
-    permissions:
-      contents: write
-    outputs:
-      release_tag: ${{ steps.release.outputs.tag }}
-    steps:
-      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
-        with: {persist-credentials: false}
-      - name: Build immutable amd64 images without runtime secrets
-        run: |
-          set -euo pipefail
-          for service in web api; do
-            if [ "$service" = web ]; then dockerfile=apps/web/Dockerfile; else dockerfile=services/api/Dockerfile; fi
-            docker buildx build --platform linux/amd64 --load \
-              --build-arg SOURCE_REVISION="$GITHUB_SHA" \
-              -f "$dockerfile" -t "fieldtwin-$service:sha-$GITHUB_SHA" .
-          done
-          mkdir -p .runtime/release
-          docker save "fieldtwin-web:sha-$GITHUB_SHA" "fieldtwin-api:sha-$GITHUB_SHA" | gzip > .runtime/release/images.tar.gz
-          python3 scripts/cicd/release.py "$GITHUB_SHA" .runtime/release/images.tar.gz > .runtime/release/manifest.json
-      - name: Publish the verified release bundle
-        id: release
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: |
-          set -euo pipefail
-          tag="ncp-$GITHUB_SHA-$GITHUB_RUN_ID-$GITHUB_RUN_ATTEMPT"
-          printf 'Verified main commit %s. App-only NCP deployment bundle; no runtime secrets.\n' "$GITHUB_SHA" > .runtime/release/notes.md
-          gh release create "$tag" --target "$GITHUB_SHA" --prerelease --latest=false \
-            --title "NCP ${GITHUB_SHA:0:12}" --notes-file .runtime/release/notes.md \
-            .runtime/release/manifest.json .runtime/release/images.tar.gz
-          printf 'tag=%s\n' "$tag" >> "$GITHUB_OUTPUT"
-
-  deploy:
-    needs: [verify, package]
-    if: github.ref == 'refs/heads/main' && (github.event_name == 'push' || github.event_name == 'workflow_dispatch')
-    runs-on: ubuntu-24.04
-    timeout-minutes: 22
-    permissions:
-      contents: read
-      actions: read
-      deployments: write
-    steps:
-      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
-        with: {persist-credentials: false}
-      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7
-        with: {node-version: '22'}
-      - name: Request deployment and wait for NCP health checks
-        env:
-          GH_TOKEN: ${{ github.token }}
-          RELEASE_TAG: ${{ needs.package.outputs.release_tag }}
-        run: |
-          mkdir -p .runtime/release
-          gh release download "$RELEASE_TAG" --pattern manifest.json --dir .runtime/release
-          node scripts/cicd/request-deploy.mjs
